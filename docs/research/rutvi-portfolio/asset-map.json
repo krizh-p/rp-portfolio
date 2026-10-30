@@ -1,0 +1,1327 @@
+{
+  "source": "https://rnpurohit121.wixstudio.com/design",
+  "pages": [
+    {
+      "route": "home",
+      "url": "https://rnpurohit121.wixstudio.com/design"
+    },
+    {
+      "route": "about",
+      "url": "https://rnpurohit121.wixstudio.com/design/about"
+    },
+    {
+      "route": "kerzner",
+      "url": "https://rnpurohit121.wixstudio.com/design/currentrole-projects-1"
+    },
+    {
+      "route": "chopdawg",
+      "url": "https://rnpurohit121.wixstudio.com/design/currentrole-projects"
+    },
+    {
+      "route": "starling",
+      "url": "https://rnpurohit121.wixstudio.com/design/productstrategy-casestudy"
+    },
+    {
+      "route": "big-picture",
+      "url": "https://rnpurohit121.wixstudio.com/design/edtech-casestudy"
+    }
+  ],
+  "images": [
+    {
+      "route": "home",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_84,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "Rutvi Purohit portfolio logo",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 42,
+      "observedHeight": 42
+    },
+    {
+      "route": "home",
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_fd6ac5a378394c4db4ab3fcb0bae0a47f000.jpg/v1/fill/w_1440,h_967,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_fd6ac5a378394c4db4ab3fcb0bae0a47f000.jpg",
+      "localPath": "/sites/rutvi-portfolio/home/02-11062b-fd6ac5a378394c4db4ab3fcb0bae0a47f000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 1440,
+      "height": 967,
+      "observedWidth": 1440,
+      "observedHeight": 967
+    },
+    {
+      "route": "home",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_0f0f0c0b5fd44ac488f2fb7e26b83916~mv2.png/v1/crop/x_1,y_30,w_1022,h_1472/fill/w_499,h_718,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Magenta%20Lanyard%20ID%20Badge%20with%20Charms.png",
+      "localPath": "/sites/rutvi-portfolio/home/03-magenta-lanyard-id-badge-with-charms.png",
+      "alt": "Magenta Lanyard ID Badge with Charms.png",
+      "mime": "image/png",
+      "width": 499,
+      "height": 718,
+      "observedWidth": 499,
+      "observedHeight": 718
+    },
+    {
+      "route": "home",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_3ab15a420f704e89add0ae4327032781~mv2.png/v1/fill/w_785,h_541,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Valtech.png",
+      "localPath": "/sites/rutvi-portfolio/home/04-valtech.png",
+      "alt": "Valtech.png",
+      "mime": "image/png",
+      "width": 785,
+      "height": 541,
+      "observedWidth": 785,
+      "observedHeight": 541
+    },
+    {
+      "route": "home",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_43a4efd6a0ec42a3a318bdba0c66ed4c~mv2.png/v1/crop/x_177,y_0,w_1567,h_1080/fill/w_784,h_540,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Background%204.png",
+      "localPath": "/sites/rutvi-portfolio/home/05-background-4.png",
+      "alt": "Background 4.png",
+      "mime": "image/png",
+      "width": 784,
+      "height": 540,
+      "observedWidth": 784,
+      "observedHeight": 540
+    },
+    {
+      "route": "home",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_b0d9f61a67d341b2a395c55ca6caee14~mv2.png/v1/fill/w_786,h_1012,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/cs1-3.png",
+      "localPath": "/sites/rutvi-portfolio/home/06-cs1-3.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 786,
+      "height": 1012,
+      "observedWidth": 786,
+      "observedHeight": 1012
+    },
+    {
+      "route": "home",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_45c81e93c5c94f05830580a903185d9f~mv2.png/v1/fill/w_786,h_1004,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/cs2-4.png",
+      "localPath": "/sites/rutvi-portfolio/home/07-cs2-4.png",
+      "alt": "cs2-4.png",
+      "mime": "image/png",
+      "width": 786,
+      "height": 1004,
+      "observedWidth": 786,
+      "observedHeight": 1004
+    },
+    {
+      "route": "home",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_86094fe84dfb4c48b9c967f98d8d25b7~mv2.png/v1/fill/w_786,h_1012,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/cs3-1.png",
+      "localPath": "/sites/rutvi-portfolio/home/08-cs3-1.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 786,
+      "height": 1012,
+      "observedWidth": 786,
+      "observedHeight": 1012
+    },
+    {
+      "route": "home",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_51,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 51,
+      "observedHeight": 51
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_84,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "Rutvi Purohit portfolio logo",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 42,
+      "observedHeight": 42
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_f572aa8b2d8e41ff8ece900edc006b0b~mv2.png/v1/fill/w_82,h_109,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/about%20me2.png",
+      "localPath": "/sites/rutvi-portfolio/about/03-about-me2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 680,
+      "height": 906,
+      "observedWidth": 82,
+      "observedHeight": 109
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_f572aa8b2d8e41ff8ece900edc006b0b~mv2.png/v1/fill/w_680,h_906,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/about%20me2.png",
+      "localPath": "/sites/rutvi-portfolio/about/03-about-me2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 680,
+      "height": 906,
+      "observedWidth": 680,
+      "observedHeight": 906
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_cc89035ed79c48f2b2ae5ae1ff538b14~mv2.png/v1/fill/w_330,h_413,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/70b4dc_cc89035ed79c48f2b2ae5ae1ff538b14~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/about/04-70b4dc-cc89035ed79c48f2b2ae5ae1ff538b14-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 330,
+      "height": 413,
+      "observedWidth": 330,
+      "observedHeight": 413
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_8ecf205bb95e44bea76bd95e5647a954~mv2.png/v1/fill/w_324,h_434,fp_0.48_0.32,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/70b4dc_8ecf205bb95e44bea76bd95e5647a954~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/about/05-70b4dc-8ecf205bb95e44bea76bd95e5647a954-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 324,
+      "height": 434,
+      "observedWidth": 324,
+      "observedHeight": 434
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_3c5c85990373479bba8a8fb67869d879~mv2.png/v1/fill/w_268,h_366,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/photo5.png",
+      "localPath": "/sites/rutvi-portfolio/about/06-photo5.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 268,
+      "height": 366,
+      "observedWidth": 268,
+      "observedHeight": 366
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_8d981225bd994e62b50928ff9a620ec5~mv2.png/v1/fill/w_367,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Group%202249.png",
+      "localPath": "/sites/rutvi-portfolio/about/07-group-2249.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 367,
+      "height": 568,
+      "observedWidth": 367,
+      "observedHeight": 568
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_5b6ae46113ec4c2e82f9f5bd81e4ef88~mv2.png/v1/crop/x_0,y_205,w_880,h_586/fill/w_88,h_59,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/photo1.png",
+      "localPath": "/sites/rutvi-portfolio/about/15-photo1.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 579,
+      "height": 385,
+      "observedWidth": 88,
+      "observedHeight": 59
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_cc89035ed79c48f2b2ae5ae1ff538b14~mv2.png/v1/fill/w_47,h_59,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/70b4dc_cc89035ed79c48f2b2ae5ae1ff538b14~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/about/04-70b4dc-cc89035ed79c48f2b2ae5ae1ff538b14-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 330,
+      "height": 413,
+      "observedWidth": 47,
+      "observedHeight": 59
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_8ecf205bb95e44bea76bd95e5647a954~mv2.png/v1/fill/w_46,h_62,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/70b4dc_8ecf205bb95e44bea76bd95e5647a954~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/about/05-70b4dc-8ecf205bb95e44bea76bd95e5647a954-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 324,
+      "height": 434,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_3c5c85990373479bba8a8fb67869d879~mv2.png/v1/fill/w_49,h_67,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/photo5.png",
+      "localPath": "/sites/rutvi-portfolio/about/06-photo5.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 268,
+      "height": 366,
+      "observedWidth": 49,
+      "observedHeight": 67
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_94151ae52b104e76bb6d51630557274f~mv2.png/v1/fill/w_73,h_94,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/photo7.png",
+      "localPath": "/sites/rutvi-portfolio/about/14-photo7.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 273,
+      "height": 351,
+      "observedWidth": 73,
+      "observedHeight": 94
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_8d981225bd994e62b50928ff9a620ec5~mv2.png/v1/fill/w_45,h_70,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Group%202249.png",
+      "localPath": "/sites/rutvi-portfolio/about/07-group-2249.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 367,
+      "height": 568,
+      "observedWidth": 45,
+      "observedHeight": 70
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_94151ae52b104e76bb6d51630557274f~mv2.png/v1/fill/w_273,h_351,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/photo7.png",
+      "localPath": "/sites/rutvi-portfolio/about/14-photo7.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 273,
+      "height": 351,
+      "observedWidth": 273,
+      "observedHeight": 351
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_5b6ae46113ec4c2e82f9f5bd81e4ef88~mv2.png/v1/crop/x_0,y_205,w_880,h_586/fill/w_579,h_385,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/photo1.png",
+      "localPath": "/sites/rutvi-portfolio/about/15-photo1.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 579,
+      "height": 385,
+      "observedWidth": 579,
+      "observedHeight": 385
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_66a6bd8ffc7946c5843aa43fc24e95c1~mv2.png/v1/fill/w_442,h_331,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/photo8.png",
+      "localPath": "/sites/rutvi-portfolio/about/16-photo8.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 442,
+      "height": 331,
+      "observedWidth": 442,
+      "observedHeight": 331
+    },
+    {
+      "route": "about",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_51,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 51,
+      "observedHeight": 51
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_84,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "Rutvi Purohit portfolio logo",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 42,
+      "observedHeight": 42
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_45cdcb5cf9b347cdae6fd8ec9ca4c467~mv2.png/v1/fill/w_204,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Valtech_white_logo.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/02-valtech-white-logo.png",
+      "alt": "Valtech_white_logo.png",
+      "mime": "image/png",
+      "width": 204,
+      "height": 45,
+      "observedWidth": 204,
+      "observedHeight": 45
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_1887e8386977463280803734e36bcbd7~mv2.png/v1/fill/w_1542,h_892,al_c,q_90,enc_avif,quality_auto/Property%20Selection%20Hero%20Banner%20(1).png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/03-property-selection-hero-banner-1.png",
+      "alt": "Property Selection Hero Banner (1).png",
+      "mime": "image/png",
+      "width": 1542,
+      "height": 892,
+      "observedWidth": 1542,
+      "observedHeight": 892
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_28575b467e2e48c086896d74c2cf5df2~mv2.png/v1/fill/w_1440,h_729,al_c,q_90,enc_avif,quality_auto/Inspirational%20Page%20Hero%20Banner.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/04-inspirational-page-hero-banner.png",
+      "alt": "Inspirational Page Hero Banner.png",
+      "mime": "image/png",
+      "width": 1440,
+      "height": 729,
+      "observedWidth": 1440,
+      "observedHeight": 729
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_e55321c53b02478b9bafa28958160488f000.jpg/v1/fill/w_1350,h_898,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_e55321c53b02478b9bafa28958160488f000.jpg",
+      "localPath": "/sites/rutvi-portfolio/kerzner/05-11062b-e55321c53b02478b9bafa28958160488f000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 1350,
+      "height": 898,
+      "observedWidth": 1350,
+      "observedHeight": 898
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_a8b65e3097ca42f8bed17f396ae83975~mv2.png/v1/fill/w_576,h_618,al_c,lg_1,q_85,enc_avif,quality_auto/Artifact_Discovery1_Maz%20Stay%20IA.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/09-artifact-discovery1-maz-stay-ia.png",
+      "alt": "Artifact_Discovery1_Maz Stay IA.png",
+      "mime": "image/png",
+      "width": 576,
+      "height": 618,
+      "observedWidth": 576,
+      "observedHeight": 618
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_b510510859b04086a68c3b4aec27cc9d~mv2.png/v1/fill/w_571,h_620,al_c,lg_1,q_85,enc_avif,quality_auto/Artifact_Discovery1_BAS%20IA.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/10-artifact-discovery1-bas-ia.png",
+      "alt": "Artifact_Discovery1_BAS IA.png",
+      "mime": "image/png",
+      "width": 571,
+      "height": 620,
+      "observedWidth": 571,
+      "observedHeight": 620
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_6327f74121374cf5b4925f218335ffc6~mv2.png/v1/fill/w_571,h_617,al_c,lg_1,q_85,enc_avif,quality_auto/Artifact_Discovery1_Maz%20IA.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/11-artifact-discovery1-maz-ia.png",
+      "alt": "Artifact_Discovery1_Maz IA.png",
+      "mime": "image/png",
+      "width": 571,
+      "height": 617,
+      "observedWidth": 571,
+      "observedHeight": 617
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_21ac4a7007cf47bdadbfa5456e04a715~mv2.png/v1/fill/w_571,h_620,al_c,lg_1,q_85,enc_avif,quality_auto/Artifact_Discovery2_Maz%20IA.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/12-artifact-discovery2-maz-ia.png",
+      "alt": "Artifact_Discovery2_Maz IA.png",
+      "mime": "image/png",
+      "width": 571,
+      "height": 620,
+      "observedWidth": 571,
+      "observedHeight": 620
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_d224854744164c3fa765c1b6ce376bff~mv2.png/v1/fill/w_571,h_617,al_c,lg_1,q_85,enc_avif,quality_auto/Artifact_Discovery2_BAS%20IA.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/13-artifact-discovery2-bas-ia.png",
+      "alt": "Artifact_Discovery2_BAS IA.png",
+      "mime": "image/png",
+      "width": 571,
+      "height": 617,
+      "observedWidth": 571,
+      "observedHeight": 617
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_a01d4e734f624c31ab7cd1f4e70ca721~mv2.png/v1/fill/w_1101,h_435,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artifact_Discovery2_KidsClub_CS.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/14-artifact-discovery2-kidsclub-cs.png",
+      "alt": "Artifact_Discovery2_KidsClub_CS.png",
+      "mime": "image/png",
+      "width": 1101,
+      "height": 435,
+      "observedWidth": 1101,
+      "observedHeight": 435
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_26f0bee8708a4e11a54f2cd81a1edf92~mv2.png/v1/fill/w_1091,h_633,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Tailored%20for%20every%20age%20-%20Kids%20Club%201.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/15-tailored-for-every-age-kids-club-1.png",
+      "alt": "Tailored for every age - Kids Club 1.png",
+      "mime": "image/png",
+      "width": 1091,
+      "height": 633,
+      "observedWidth": 1091,
+      "observedHeight": 633
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_925eb467148642b2a57760bb1bb1c02f~mv2.png/v1/fill/w_601,h_370,al_c,lg_1,q_85,enc_avif,quality_auto/Artifact_Discovery3_BAS1.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/16-artifact-discovery3-bas1.png",
+      "alt": "Artifact_Discovery3_BAS1.png",
+      "mime": "image/png",
+      "width": 601,
+      "height": 370,
+      "observedWidth": 601,
+      "observedHeight": 370
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_710e7ce39a074d738d8f5a959032660c~mv2.png/v1/fill/w_357,h_503,al_c,lg_1,q_85,enc_avif,quality_auto/Artifact_Discovery3_BAS2.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/17-artifact-discovery3-bas2.png",
+      "alt": "Artifact_Discovery3_BAS2.png",
+      "mime": "image/png",
+      "width": 357,
+      "height": 503,
+      "observedWidth": 357,
+      "observedHeight": 503
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_757f2d577a254418854f3197990d90d7~mv2.png/v1/fill/w_1387,h_628,al_c,q_90,enc_avif,quality_auto/70b4dc_757f2d577a254418854f3197990d90d7~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/18-70b4dc-757f2d577a254418854f3197990d90d7-mv2.png",
+      "alt": "image and video aspect ratio.png",
+      "mime": "image/png",
+      "width": 1387,
+      "height": 628,
+      "observedWidth": 1387,
+      "observedHeight": 628
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_d3ba17455d444ef5a8a03166f5e45245~mv2.png/v1/crop/x_0,y_0,w_10487,h_8754/fill/w_1296,h_1082,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/l1%20to%20l3.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/19-l1-to-l3.png",
+      "alt": "l1 to l3.png",
+      "mime": "image/png",
+      "width": 1296,
+      "height": 1082,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_f4d78ba727214ab389de733750561e75~mv2.png/v1/fill/w_1190,h_967,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Brand%20side-by-side%201.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/20-brand-side-by-side-1.png",
+      "alt": "Brand side-by-side 1.png",
+      "mime": "image/png",
+      "width": 1190,
+      "height": 967,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_458443c7ab9a4a8198a285ae43a17098f000.jpg/v1/fill/w_1059,h_661,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/70b4dc_458443c7ab9a4a8198a285ae43a17098f000.jpg",
+      "localPath": "/sites/rutvi-portfolio/kerzner/21-70b4dc-458443c7ab9a4a8198a285ae43a17098f000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 1059,
+      "height": 661,
+      "observedWidth": 1059,
+      "observedHeight": 661
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_58a89489034f4cf9aae385de4434872df000.jpg/v1/fill/w_1059,h_661,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/70b4dc_58a89489034f4cf9aae385de4434872df000.jpg",
+      "localPath": "/sites/rutvi-portfolio/kerzner/22-70b4dc-58a89489034f4cf9aae385de4434872df000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 1059,
+      "height": 661,
+      "observedWidth": 1059,
+      "observedHeight": 661
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_4b223bfcd880439ca93e518dd2dd0789~mv2.png/v1/crop/x_12,y_0,w_1024,h_525/fill/w_1024,h_525,al_c,q_90,enc_avif,quality_auto/Golf%20IA%20Draft.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/23-golf-ia-draft.png",
+      "alt": "Golf IA Draft.png",
+      "mime": "image/png",
+      "width": 1024,
+      "height": 525,
+      "observedWidth": 1024,
+      "observedHeight": 525
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_731cf0b450204bc8b4024cccdea7fbba~mv2.png/v1/crop/x_0,y_32,w_1029,h_498/fill/w_1029,h_498,al_c,q_90,enc_avif,quality_auto/Golf%20IA%20FInal.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/24-golf-ia-final.png",
+      "alt": "Golf IA FInal.png",
+      "mime": "image/png",
+      "width": 1029,
+      "height": 498,
+      "observedWidth": 1029,
+      "observedHeight": 498
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_761f3ae287d24d098711fbfc57ed50b9~mv2.png/v1/fill/w_1129,h_1226,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/MAZ%20Casino%20Flow.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/25-maz-casino-flow.png",
+      "alt": "MAZ Casino Flow.png",
+      "mime": "image/png",
+      "width": 1129,
+      "height": 1226,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_465f4193d43a4f78abeb00df57554759~mv2.png/v1/crop/x_0,y_0,w_7770,h_9585/fill/w_1296,h_1599,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/BAS%20Dining.png",
+      "localPath": "/sites/rutvi-portfolio/kerzner/26-bas-dining.png",
+      "alt": "BAS Dining.png",
+      "mime": "image/png",
+      "width": 1296,
+      "height": 1599,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_51,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 51,
+      "observedHeight": 51
+    },
+    {
+      "route": "chopdawg",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_84,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "Rutvi Purohit portfolio logo",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 42,
+      "observedHeight": 42
+    },
+    {
+      "route": "chopdawg",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_f92df09268704726b1918615a5e08b89f000.jpg/v1/fill/w_866,h_520,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/70b4dc_f92df09268704726b1918615a5e08b89f000.jpg",
+      "localPath": "/sites/rutvi-portfolio/chopdawg/02-70b4dc-f92df09268704726b1918615a5e08b89f000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 866,
+      "height": 520,
+      "observedWidth": 866,
+      "observedHeight": 520
+    },
+    {
+      "route": "chopdawg",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_c0135b430f3b4a528a18b20f5c3fe14cf000.jpg/v1/fill/w_866,h_507,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/70b4dc_c0135b430f3b4a528a18b20f5c3fe14cf000.jpg",
+      "localPath": "/sites/rutvi-portfolio/chopdawg/03-70b4dc-c0135b430f3b4a528a18b20f5c3fe14cf000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 866,
+      "height": 507,
+      "observedWidth": 866,
+      "observedHeight": 507
+    },
+    {
+      "route": "chopdawg",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_c3bdfaea639f4b10b7d35bf901014fd5f000.jpg/v1/fill/w_866,h_559,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/70b4dc_c3bdfaea639f4b10b7d35bf901014fd5f000.jpg",
+      "localPath": "/sites/rutvi-portfolio/chopdawg/04-70b4dc-c3bdfaea639f4b10b7d35bf901014fd5f000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 866,
+      "height": 559,
+      "observedWidth": 866,
+      "observedHeight": 559
+    },
+    {
+      "route": "chopdawg",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_51,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 51,
+      "observedHeight": 51
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_84,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "Rutvi Purohit portfolio logo",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 42,
+      "observedHeight": 42
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_d62f1be9930d44d59f1c926ab5911eb2f001.jpg/v1/fill/w_1030,h_596,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/70b4dc_d62f1be9930d44d59f1c926ab5911eb2f001.jpg",
+      "localPath": "/sites/rutvi-portfolio/starling/02-70b4dc-d62f1be9930d44d59f1c926ab5911eb2f001.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 1030,
+      "height": 596,
+      "observedWidth": 1030,
+      "observedHeight": 596
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_d5f05e43d16d45ba81b40d788941f49c~mv2.jpg/v1/fill/w_1620,h_703,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/70b4dc_d5f05e43d16d45ba81b40d788941f49c~mv2.jpg",
+      "localPath": "/sites/rutvi-portfolio/starling/03-70b4dc-d5f05e43d16d45ba81b40d788941f49c-mv2.avif",
+      "alt": "",
+      "mime": "image/avif",
+      "width": 1620,
+      "height": 703,
+      "observedWidth": 1620,
+      "observedHeight": 703
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_16c6874ee3af411db95a32d33622c8dd~mv2.png/v1/fill/w_373,h_248,fp_0.06_0.30,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/sa4.png",
+      "localPath": "/sites/rutvi-portfolio/starling/04-sa4.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 373,
+      "height": 248,
+      "observedWidth": 373,
+      "observedHeight": 248
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_2a7888e196a44ce8998043402865cbb9~mv2.png/v1/fill/w_373,h_248,fp_0.27_0.34,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/sa3.png",
+      "localPath": "/sites/rutvi-portfolio/starling/05-sa3.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 373,
+      "height": 248,
+      "observedWidth": 373,
+      "observedHeight": 248
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_52ce9b81f2f0472dbab801cc77d8b5d3~mv2.png/v1/fill/w_373,h_248,fp_0.37_0.15,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/sa5.png",
+      "localPath": "/sites/rutvi-portfolio/starling/06-sa5.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 373,
+      "height": 248,
+      "observedWidth": 373,
+      "observedHeight": 248
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_e84140791fb34a73bfa100ecdf30bff8~mv2.png/v1/fill/w_373,h_248,fp_0.40_0.28,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/sa6.png",
+      "localPath": "/sites/rutvi-portfolio/starling/07-sa6.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 373,
+      "height": 248,
+      "observedWidth": 373,
+      "observedHeight": 248
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_cb21eb77d02344eaafdd17a7d6dcfc9f~mv2.png/v1/fill/w_924,h_543,al_c,q_90,enc_avif,quality_auto/70b4dc_cb21eb77d02344eaafdd17a7d6dcfc9f~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/starling/08-70b4dc-cb21eb77d02344eaafdd17a7d6dcfc9f-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 924,
+      "height": 543,
+      "observedWidth": 462,
+      "observedHeight": 271
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_42275b4cb0184a248575188e2dc3067d~mv2.png/v1/fill/w_1006,h_665,al_c,q_90,enc_avif,quality_auto/SA%20empathy.png",
+      "localPath": "/sites/rutvi-portfolio/starling/09-sa-empathy.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1006,
+      "height": 665,
+      "observedWidth": 503,
+      "observedHeight": 332
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_4fc04eca08994a51a8c819b928453ca1~mv2.png/v1/fill/w_276,h_598,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/13%20Pro%20-%2097.png",
+      "localPath": "/sites/rutvi-portfolio/starling/10-13-pro-97.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 276,
+      "height": 598,
+      "observedWidth": 276,
+      "observedHeight": 598
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_125a0956f62d4256b8ca13024b4754c3~mv2.png/v1/fill/w_276,h_482,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/parent%20notes.png",
+      "localPath": "/sites/rutvi-portfolio/starling/11-parent-notes.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 276,
+      "height": 482,
+      "observedWidth": 276,
+      "observedHeight": 482
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_e3cc734ea3b649b48443dad5028a3def~mv2.png/v1/fill/w_263,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/13%20Pro%20-%2078.png",
+      "localPath": "/sites/rutvi-portfolio/starling/12-13-pro-78.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 263,
+      "height": 568,
+      "observedWidth": 263,
+      "observedHeight": 568
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_f9df23d434554e76a0eb5ee7cb17c78f~mv2.png/v1/fill/w_263,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/13%20Pro%20-%2087.png",
+      "localPath": "/sites/rutvi-portfolio/starling/13-13-pro-87.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 263,
+      "height": 568,
+      "observedWidth": 263,
+      "observedHeight": 568
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_d4655c203b1b4c9d902ef8e71c1300bc~mv2.png/v1/fill/w_276,h_598,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/13%20Pro%20-%20126.png",
+      "localPath": "/sites/rutvi-portfolio/starling/14-13-pro-126.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 276,
+      "height": 598,
+      "observedWidth": 276,
+      "observedHeight": 598
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_dfc90ab0d9ac4bf1948afdab83c93600~mv2.png/v1/fill/w_144,h_586,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/safety%20bands.png",
+      "localPath": "/sites/rutvi-portfolio/starling/15-safety-bands.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 144,
+      "height": 586,
+      "observedWidth": 144,
+      "observedHeight": 586
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_8dc8e2e308c841e38e2b343a965b49a9~mv2.png/v1/fill/w_775,h_525,fp_0.46_0.61,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/dynamic.png",
+      "localPath": "/sites/rutvi-portfolio/starling/16-dynamic.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 775,
+      "height": 525,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_91578d7a87b345d0b2174e5093114fd3~mv2.png/v1/fill/w_781,h_250,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SA%20story1.png",
+      "localPath": "/sites/rutvi-portfolio/starling/17-sa-story1.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 781,
+      "height": 250,
+      "observedWidth": 781,
+      "observedHeight": 250
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_ca8059e2be97446db87bd259e8491096~mv2.png/v1/crop/x_0,y_0,w_831,h_274/fill/w_779,h_257,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SA%20story%202.png",
+      "localPath": "/sites/rutvi-portfolio/starling/18-sa-story-2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 779,
+      "height": 257,
+      "observedWidth": 779,
+      "observedHeight": 257
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_7829006fb1f0466f9a0ecc2b9fb62580~mv2.png/v1/crop/x_0,y_0,w_833,h_272/fill/w_769,h_251,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SA%20story%203.png",
+      "localPath": "/sites/rutvi-portfolio/starling/19-sa-story-3.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 769,
+      "height": 251,
+      "observedWidth": 769,
+      "observedHeight": 251
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_a7d7d17b79264c9787d67f18670f2f65~mv2.png/v1/fill/w_504,h_320,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/70b4dc_a7d7d17b79264c9787d67f18670f2f65~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/starling/20-70b4dc-a7d7d17b79264c9787d67f18670f2f65-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 504,
+      "height": 320,
+      "observedWidth": 504,
+      "observedHeight": 320
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_7e16d7706dcd4b57a55cddf82feceb67~mv2.png/v1/fill/w_503,h_320,fp_0.50_0.52,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SA%205.png",
+      "localPath": "/sites/rutvi-portfolio/starling/21-sa-5.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 503,
+      "height": 320,
+      "observedWidth": 503,
+      "observedHeight": 320
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_50ab2fef035f41f7b30fafbb1ff27aac~mv2.png/v1/fill/w_1029,h_334,fp_0.49_0.39,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SA%204.png",
+      "localPath": "/sites/rutvi-portfolio/starling/22-sa-4.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1029,
+      "height": 334,
+      "observedWidth": 1029,
+      "observedHeight": 334
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_9d17c88623394b76869b6974647d9c76~mv2.png/v1/fill/w_2903,h_336,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/70b4dc_9d17c88623394b76869b6974647d9c76~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/starling/23-70b4dc-9d17c88623394b76869b6974647d9c76-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 2903,
+      "height": 336,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_ce6dccef7a09454ab382918a84e4f317~mv2.png/v1/fill/w_1010,h_484,al_c,lg_1,q_90,enc_avif,quality_auto/70b4dc_ce6dccef7a09454ab382918a84e4f317~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/starling/24-70b4dc-ce6dccef7a09454ab382918a84e4f317-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1010,
+      "height": 484,
+      "observedWidth": 1010,
+      "observedHeight": 484
+    },
+    {
+      "route": "starling",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_51,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 51,
+      "observedHeight": 51
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_84,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "Rutvi Purohit portfolio logo",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 42,
+      "observedHeight": 42
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_3935cdabcbb64933a0a93657ff058914f000.jpg/v1/fill/w_946,h_663,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/70b4dc_3935cdabcbb64933a0a93657ff058914f000.jpg",
+      "localPath": "/sites/rutvi-portfolio/big-picture/02-70b4dc-3935cdabcbb64933a0a93657ff058914f000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 946,
+      "height": 663,
+      "observedWidth": 946,
+      "observedHeight": 663
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_16e42f5c692348789ba533fb4a3853cd~mv2.png/v1/fill/w_1352,h_594,al_c,q_90,enc_avif,quality_auto/task%20analysis.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/03-task-analysis.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1352,
+      "height": 594,
+      "observedWidth": 676,
+      "observedHeight": 297
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_c93b3b00bc6547b485b5844d31866c54~mv2.png/v1/crop/x_0,y_60,w_2203,h_2338/fill/w_992,h_1053,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/usability%20insights.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/04-usability-insights.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 992,
+      "height": 1053,
+      "observedWidth": 496,
+      "observedHeight": 526
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_36630230d78c498993bcc5327ae16163~mv2.png/v1/fill/w_1578,h_598,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/stakeholder%20insights.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/05-stakeholder-insights.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1578,
+      "height": 598,
+      "observedWidth": 789,
+      "observedHeight": 299
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_795af472e2e9457eaa7733d4b1afea88~mv2.png/v1/fill/w_1578,h_823,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/User%20Persona%20-%20Donor.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/06-user-persona-donor.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1578,
+      "height": 823,
+      "observedWidth": 789,
+      "observedHeight": 411
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_00e30e5dc5944ff28b9bf1416058c712~mv2.png/v1/fill/w_1578,h_785,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/User%20Journey%20-%20Donor.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/07-user-journey-donor.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1578,
+      "height": 785,
+      "observedWidth": 789,
+      "observedHeight": 392
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_162c39591c5446d582728ddee5237a43~mv2.png/v1/fill/w_1578,h_827,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/User%20Persona%20-%20Mentor.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/08-user-persona-mentor.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1578,
+      "height": 827,
+      "observedWidth": 789,
+      "observedHeight": 413
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_aa304fa6ffdf452c9fc09cc26e9f7b77~mv2.png/v1/fill/w_1578,h_785,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/User%20Journey%20-%20Mentor.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/09-user-journey-mentor.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1578,
+      "height": 785,
+      "observedWidth": 789,
+      "observedHeight": 392
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_771ccb7cc72b48ea8bedb0bb38122e55~mv2.png/v1/fill/w_674,h_408,fp_0.51_0.16,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BPP-%20whats%20workingv.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/10-bpp-whats-workingv.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 674,
+      "height": 408,
+      "observedWidth": 337,
+      "observedHeight": 204
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_771ccb7cc72b48ea8bedb0bb38122e55~mv2.png/v1/fill/w_674,h_408,fp_0.48_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BPP-%20whats%20workingv.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/11-bpp-whats-workingv.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 674,
+      "height": 408,
+      "observedWidth": 337,
+      "observedHeight": 204
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_771ccb7cc72b48ea8bedb0bb38122e55~mv2.png/v1/fill/w_674,h_408,fp_0.45_0.83,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BPP-%20whats%20workingv.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/12-bpp-whats-workingv.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 674,
+      "height": 408,
+      "observedWidth": 337,
+      "observedHeight": 204
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_137679378e9a4696ab40848abb2891c3~mv2.png/v1/fill/w_510,h_309,fp_0.50_0.18,q_85,enc_avif,quality_auto/BPP%20-%20whats%20not%20working.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/13-bpp-whats-not-working.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 510,
+      "height": 309,
+      "observedWidth": 255,
+      "observedHeight": 154
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_137679378e9a4696ab40848abb2891c3~mv2.png/v1/fill/w_510,h_309,fp_0.57_0.35,q_85,enc_avif,quality_auto/BPP%20-%20whats%20not%20working.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/14-bpp-whats-not-working.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 510,
+      "height": 309,
+      "observedWidth": 255,
+      "observedHeight": 154
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_90b54d87bdcb4468bdcb5dcb026f2c48~mv2.png/v1/fill/w_510,h_309,fp_0.47_0.60,q_85,enc_avif,quality_auto/BPP%20-%20whats%20not%20working.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/15-bpp-whats-not-working.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 510,
+      "height": 309,
+      "observedWidth": 255,
+      "observedHeight": 154
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_137679378e9a4696ab40848abb2891c3~mv2.png/v1/fill/w_510,h_309,fp_0.47_0.86,q_85,enc_avif,quality_auto/BPP%20-%20whats%20not%20working.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/16-bpp-whats-not-working.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 510,
+      "height": 309,
+      "observedWidth": 255,
+      "observedHeight": 154
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_1e86bdfb299f4d498330fa790e3f6585~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/17-70b4dc-1e86bdfb299f4d498330fa790e3f6585-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1669,
+      "height": 758,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_8658aa37cc074ce8a60cf41db8eb442e~mv2.png/v1/fill/w_1672,h_510,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/New%20iA.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/18-new-ia.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1672,
+      "height": 510,
+      "observedWidth": 836,
+      "observedHeight": 255
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_883f7fbbc90a469684a4ab8b82235a4a~mv2.png/v1/fill/w_484,h_483,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tree%20test%20overall.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/19-tree-test-overall.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 484,
+      "height": 483,
+      "observedWidth": 242,
+      "observedHeight": 241
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_2f33316ab6164632aa5caeee428c1c5d~mv2.png/v1/fill/w_1025,h_805,al_c,q_90,enc_avif,quality_auto/New%20IA%20Tree%20Test.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/20-new-ia-tree-test.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1025,
+      "height": 805,
+      "observedWidth": 512,
+      "observedHeight": 402
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_d2121e4bf6fa401c8067dfb3cf6030a8~mv2.png/v1/crop/x_190,y_0,w_5146,h_6823/fill/w_891,h_1183,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/wireframes.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/21-wireframes.png",
+      "alt": "wireframes.png",
+      "mime": "image/png",
+      "width": 891,
+      "height": 1183,
+      "observedWidth": 891,
+      "observedHeight": 1183
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_7f456332640c4a19a4ebcac3c5b7a67a~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/22-70b4dc-7f456332640c4a19a4ebcac3c5b7a67a-mv2.png",
+      "alt": "ui style guide.png",
+      "mime": "image/png",
+      "width": 1655,
+      "height": 1427,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_e62f8115c0244ea0a73143905c92938e~mv2.png/v1/fill/w_775,h_525,fp_0.51_0.38,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Home%20Page%20-%20B.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/23-home-page-b.png",
+      "alt": "Home Page - B.png",
+      "mime": "image/png",
+      "width": 775,
+      "height": 525,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_432fb1af85f44a689701dc902ceb3b96~mv2.png/v1/fill/w_775,h_649,fp_0.54_0.35,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Get%20Involved.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/24-get-involved.png",
+      "alt": "Get Involved.png",
+      "mime": "image/png",
+      "width": 775,
+      "height": 649,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_e62f8115c0244ea0a73143905c92938e~mv2.png/v1/fill/w_775,h_525,fp_0.49_0.92,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Home%20Page%20-%20B.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/25-home-page-b.png",
+      "alt": "Home Page - B.png",
+      "mime": "image/png",
+      "width": 775,
+      "height": 525,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_e62f8115c0244ea0a73143905c92938e~mv2.png/v1/fill/w_775,h_525,fp_0.52_0.09,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Home%20Page%20-%20B.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/26-home-page-b.png",
+      "alt": "Home Page - B.png",
+      "mime": "image/png",
+      "width": 775,
+      "height": 525,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_e44d264ca31442329a546940f8ab66ea~mv2.png/v1/fill/w_1514,h_1451,fp_0.16_0.62,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/70b4dc_e44d264ca31442329a546940f8ab66ea~mv2.png",
+      "localPath": "/sites/rutvi-portfolio/big-picture/27-70b4dc-e44d264ca31442329a546940f8ab66ea-mv2.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 1514,
+      "height": 1451,
+      "observedWidth": 0,
+      "observedHeight": 0
+    },
+    {
+      "route": "big-picture",
+      "sourceUrl": "https://static.wixstatic.com/media/70b4dc_54181affbfa44eb79ea6aa8b4997adc4~mv2.png/v1/fill/w_51,h_51,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo4.png",
+      "localPath": "/sites/rutvi-portfolio/home/logo.png",
+      "alt": "",
+      "mime": "image/png",
+      "width": 392,
+      "height": 393,
+      "observedWidth": 51,
+      "observedHeight": 51
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_41148c6b0dca4f42b8380089fd183012f000.jpg/v1/fill/w_112,h_118,al_c,q_80,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_41148c6b0dca4f42b8380089fd183012f000.jpg",
+      "localPath": "/sites/rutvi-portfolio/kerzner/06-11062b-41148c6b0dca4f42b8380089fd183012f000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 112,
+      "height": 118,
+      "observedWidth": 112,
+      "observedHeight": 118
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/c837a6_fa88fcd4281f4a2e9c198b43bbad67b2f000.jpg/v1/fill/w_112,h_118,al_c,q_80,usm_0.33_1.00_0.00,enc_avif,quality_auto/c837a6_fa88fcd4281f4a2e9c198b43bbad67b2f000.jpg",
+      "localPath": "/sites/rutvi-portfolio/kerzner/07-c837a6-fa88fcd4281f4a2e9c198b43bbad67b2f000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 112,
+      "height": 118,
+      "observedWidth": 112,
+      "observedHeight": 118
+    },
+    {
+      "route": "kerzner",
+      "sourceUrl": "https://static.wixstatic.com/media/c837a6_5f728b37e4f5427ca6c5c3d54e0a336af000.jpg/v1/fill/w_112,h_118,al_t,q_80,usm_0.33_1.00_0.00,enc_avif,quality_auto/c837a6_5f728b37e4f5427ca6c5c3d54e0a336af000.jpg",
+      "localPath": "/sites/rutvi-portfolio/kerzner/08-c837a6-5f728b37e4f5427ca6c5c3d54e0a336af000.jpg",
+      "alt": "",
+      "mime": "image/jpeg",
+      "width": 112,
+      "height": 118,
+      "observedWidth": 112,
+      "observedHeight": 118
+    }
+  ],
+  "fonts": {
+    "body": {
+      "family": "SF Pro Text",
+      "weight": 400,
+      "sourceUrl": "https://static.wixstatic.com/ufonts/79836d_445ae91841b4407289bd89340ef7d4ed/woff2/file.woff2",
+      "localPath": "/sites/rutvi-portfolio/fonts/body.woff2",
+      "mime": "font/woff2",
+      "bytes": 104920,
+      "computedFamily": "wfont_79836d_445ae91841b4407289bd89340ef7d4ed, wf_445ae91841b4407289bd89340, orig_sf_pro_text_light"
+    },
+    "display": {
+      "family": "Libre Baskerville",
+      "weights": {
+        "400": {
+          "sourceUrl": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxMaC82U.woff2",
+          "localPath": "/sites/rutvi-portfolio/fonts/libre-baskerville-regular.woff2",
+          "mime": "font/woff2",
+          "bytes": 17404
+        },
+        "700": {
+          "sourceUrl": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/librebaskerville/v14/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcC-wLOj.woff2",
+          "localPath": "/sites/rutvi-portfolio/fonts/libre-baskerville-bold.woff2",
+          "mime": "font/woff2",
+          "bytes": 17920
+        },
+        "400_italic": {
+          "sourceUrl": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQDO-Wyrs.woff2",
+          "localPath": "/sites/rutvi-portfolio/fonts/libre-baskerville-italic.woff2",
+          "mime": "font/woff2",
+          "bytes": 20992
+        }
+      }
+    },
+    "observedComputed": {
+      "paragraph": {
+        "family": "wfont_79836d_445ae91841b4407289bd89340ef7d4ed, wf_445ae91841b4407289bd89340, orig_sf_pro_text_light",
+        "weight": 400
+      },
+      "heading": {
+        "family": "libre baskerville",
+        "weight": 400
+      }
+    }
+  },
+  "pdfs": [
+    {
+      "sourceUrl": "https://a054da29-6996-4752-a109-49754cf1ccf7.filesusr.com/ugd/70b4dc_0ebbcac4e2854c6d97c9a31be1710707.pdf",
+      "localPath": "/sites/rutvi-portfolio/resumes/home.pdf",
+      "mime": "application/pdf",
+      "bytes": 53385
+    },
+    {
+      "sourceUrl": "https://a054da29-6996-4752-a109-49754cf1ccf7.filesusr.com/ugd/70b4dc_2af58b9cb96a491590f1b8d00309a52f.pdf",
+      "localPath": "/sites/rutvi-portfolio/resumes/header.pdf",
+      "mime": "application/pdf",
+      "bytes": 84133
+    },
+    {
+      "sourceUrl": "https://a054da29-6996-4752-a109-49754cf1ccf7.filesusr.com/ugd/70b4dc_1da3016111754a4e960be2ca17730073.pdf",
+      "localPath": "/sites/rutvi-portfolio/resumes/about.pdf",
+      "mime": "application/pdf",
+      "bytes": 84133
+    }
+  ],
+  "video": {
+    "sourceUrl": "https://video.wixstatic.com/video/11062b_fd6ac5a378394c4db4ab3fcb0bae0a47/1080p/mp4/file.mp4",
+    "localPath": "/sites/rutvi-portfolio/home/hero.mp4",
+    "mime": "video/mp4",
+    "bytes": 7473503,
+    "poster": "/sites/rutvi-portfolio/home/02-11062b-fd6ac5a378394c4db4ab3fcb0bae0a47f000.jpg",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 30
+  },
+  "failures": []
+}
