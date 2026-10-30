@@ -1,0 +1,88 @@
+.page {
+  --purple: #260d2c;
+  background: #fff;
+  color: #17131a;
+}
+ .intro, .bio, .strengths, .leisure { background: var(--purple); color: #fff; }
+.intro { min-height: 715px; padding: 84px max(calc((100% - 1250px) / 2), 7vw) 72px; position: relative; overflow: hidden; }
+.introCopy { position: relative; z-index: 1; max-width: 540px; }
+.intro h1, .workHeading h2 { font-size: 20px; margin: 0 0 32px; font-weight: 600; }
+.name { font-family: Georgia, serif; font-size: clamp(56px, 8vw, 112px); letter-spacing: .03em; line-height: 1.1; margin: 0 0 20px; }
+.pronunciation, .role { font-size: 20px; margin: 0 0 16px; }
+.workLink { color: #e3ca28; font-size: 20px; display: inline-flex; gap: 10px; margin: 24px 0; text-decoration: none; }
+.portrait { position: absolute; right: 7%; bottom: -1px; width: min(42%, 560px); height: auto; opacity: .34; mix-blend-mode: screen; }
+ .bio { min-height: 905px; border-top: 1px solid #ffffff38; padding: 100px max(calc((100% - 1250px) / 2), 7vw) 110px; }
+.bioCopy { max-width: 670px; }
+.bio p, .leisure p { font-size: 17px; line-height: 1.65; margin: 0 0 22px; }
+.bio h2 { font-size: 24px; margin: 56px 0 24px; }
+.bio ul { list-style: none; padding: 0; display: grid; gap: 15px; }
+.bio li { display: flex; gap: 12px; align-items: flex-start; line-height: 1.55; }
+ .strengths { min-height: 828px; padding: 90px max(calc((100% - 1200px) / 2), 7vw) 130px; }
+.strengths > h2 { max-width: 670px; margin: 0 0 60px; font: 34px/1.2 Georgia, serif; }
+.strengthGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 44px 60px; }
+.strengthGrid h3 { font-size: 20px; margin: 0 0 14px; }
+.strengthGrid p { line-height: 1.65; white-space: pre-line; margin: 0; }
+ .leisure { min-height: 1213px; padding: 0; position: relative; overflow: hidden; }
+ .location { position: absolute; top: 648px; left: 14.2%; margin: 0; font: 400 16px/1.2 var(--font-body), Arial, sans-serif; }
+ .leisureCopy { position: absolute; top: 661px; left: 54%; width: min(24.2vw, 349px); }
+ .leisureCopy h2 { font: 34px/1.2 Georgia, serif; }
+ .gallery { position: absolute; inset: 0; }
+ .gallery img { position: absolute; height: auto; max-width: none; width: 294px; border-radius: 6px; }
+ .gallery img:nth-child(1) { left: 7.36%; top: 230px; }
+ .gallery img:nth-child(2) { left: 29.5%; top: 276px; width: 215px; }
+ .gallery img:nth-child(3) { left: 29.24%; top: 596px; width: 259px; }
+ .gallery img:nth-child(4) { left: 9.1%; top: 713px; width: 264px; }
+ .photoGallery { min-height: 461px; position: relative; background: var(--purple); }
+ .photoGallery img { position: absolute; height: auto; max-width: none; }
+ .photoGallery img:nth-child(1) { left: 3.125%; top: -25px; width: 354px; }
+ .photoGallery img:nth-child(2) { left: 29.5%; top: -126px; width: 463px; }
+ .photoGallery img:nth-child(3) { left: 63.5%; top: -40px; width: 219px; }
+ .work { min-height: 1762px; padding: 72px max(calc((100% - 1200px) / 2), 7vw) 150px; background: #fff; }
+.workHeading { display: flex; flex-direction: column; gap: 0; }
+.workHeading > h2:first-child { margin-bottom: 38px; }
+.workHeading .experienceTitle {
+  margin: 0 0 28px;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(3.5rem, 5.8vw, 83.25px);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.workHeading a { color: inherit; font-size: 14px; text-decoration: none; }
+.timeline { width: min(690px, 100%); margin: 40px 3% 0 auto; border-right: 2px solid #26122c; padding-right: 36px; }
+.job { display: grid; grid-template-columns: minmax(0, 1fr) 170px; gap: 30px; align-items: start; margin: 0 0 48px; }
+.jobCard { padding: 22px; box-shadow: 0 7px 28px #00000012; }
+.jobCard h3 { margin: 0 0 5px; font-size: 17px; }
+.jobCard p { font-size: 13px; line-height: 1.5; margin: 8px 0 0; }
+.jobCard .company { margin: 0; }
+.date { font-size: 13px; margin: 24px 0 0; }
+ @media (max-width: 850px) {
+   .intro { min-height: 700px; padding: 50px 7vw 300px; }
+   .name { font-size: clamp(48px, 14vw, 82px); }
+   .portrait { width: min(72%, 390px); right: 5%; opacity: .65; }
+   .bio, .strengths, .leisure, .photoGallery, .work { min-height: 0; }
+   .bio { padding: 64px 7vw; }
+   .strengths { padding: 64px 7vw 80px; }
+   .strengthGrid { grid-template-columns: 1fr; gap: 32px; }
+   .leisure { padding: 40px 7vw 48px; display: flex; flex-direction: column; gap: 24px; }
+   .location, .leisureCopy { position: static; width: auto; max-width: 100%; }
+   .location { font-size: 16px; }
+   .leisureCopy h2 { margin-top: 0; }
+   .gallery { position: static; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 4px; }
+   .gallery img, .gallery img:nth-child(2), .gallery img:nth-child(3), .gallery img:nth-child(4) { position: static; width: 100%; max-width: 100%; height: auto; }
+   .gallery img:nth-child(2) { grid-column: span 2; }
+   .photoGallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding: 24px 7vw 36px; }
+   .photoGallery img, .photoGallery img:nth-child(2), .photoGallery img:nth-child(3) { position: static; width: 100%; max-width: 100%; height: auto; }
+   .photoGallery img:nth-child(2) { grid-column: 1 / -1; }
+   .work { padding: 55px 7vw 85px; }
+  .workHeading { gap: 0; }
+  .workHeading > h2:first-child { margin-bottom: 24px; }
+  .workHeading .experienceTitle {
+    margin-bottom: 20px;
+    font-size: clamp(3rem, 12vw, 4rem);
+  }
+   .timeline { margin: 42px 0 0; padding-right: 0; border: 0; }
+   .job { grid-template-columns: 1fr; gap: 0; margin-bottom: 28px; }
+   .jobCard { padding: 18px; }
+   .date { margin: 8px 0 0; }
+ }

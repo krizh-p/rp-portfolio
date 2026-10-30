@@ -1,0 +1,368 @@
+ .page {
+  --green: #13815f;
+  --page-gutter: clamp(22px, 5.8vw, 84px);
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 var(--page-gutter) 100px;
+  color: #193b35;
+  background: #fff;
+  font-family: var(--font-sf-pro);
+  font-size: 20px;
+  overflow-wrap: anywhere;
+}
+
+.page h1, .page h2, .page h3 {
+  color: #123f36;
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+ .page h1 { margin: 0; font-size: clamp(2.25rem, 4.48vw, 4.05rem); }
+ .page h2 { margin: 0 0 1rem; font-size: clamp(2rem, 3.125vw, 2.82rem); }
+ .page h3 { margin: 2.5rem 0 1rem; color: #2a2829; font: 700 clamp(1.25rem, 1.45vw, 1.3rem)/1.2 var(--font-sf-pro); }
+ .page p { margin: 0 0 1.25rem; max-width: 74ch; line-height: 1.4; }
+
+ .hero { padding: 121px 0 0; min-height: 380px; }
+ .hero h1 { color: #1a8d5d; line-height: 1.1; }
+ .hero .subtitle { max-width: 993px; margin: 22px 0 0; color: #121b2f; font: 400 clamp(2.25rem, 4.48vw, 4.05rem)/1.24 var(--font-serif), Georgia, serif; }
+ .details { display: grid; grid-template-columns: 48.3% 1fr; min-height: 795px; padding: 42px 0 96px; }
+ .detailsContent { grid-column: 2; min-width: 0; }
+ .facts { display: grid; grid-template-columns: 1.12fr 1.04fr .7fr; gap: 0; max-width: 602px; }
+ .facts > div { display: grid; gap: 8px; align-content: start; }
+ .facts strong { color: #000; font-size: 22px; letter-spacing: 0; line-height: 1.2; text-transform: none; }
+ .facts span { color: #2a2829; font-size: 20px; line-height: 1.4; }
+ .summary { width: 648px; max-width: calc(100% + 40px); margin: 48px 0 0 -20px; padding: 20px; box-shadow: 0 4px 24px rgb(0 0 0 / 7%); }
+ .summary h2 { margin: 0 0 12px; color: #000; font: 700 22px/1.2 var(--font-sf-pro); }
+ .summary h2:not(:first-child) { margin: 58px 0 12px; }
+ .summary p { max-width: 607px; margin: 0; color: #2a2829; font-size: 20px; line-height: 1.4; }
+ .overview { min-height: 446px; padding: 159px 0 0; }
+ .overview .eyebrow { margin: 0 0 38px; color: #000; font-size: 20px; line-height: 24px; letter-spacing: 0; }
+ .overview h2 { max-width: 1063px; margin: 0; color: #000; font-size: 45.12px; line-height: 1.24; }
+ .challenge { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 172px; max-width: 1131px; min-height: 807px; margin-left: 47px; padding-top: 43px; }
+ .challenge h3 { margin: 0 0 43px; color: #000; font: 700 21px/25px var(--font-sf-pro); }
+ .challenge > div:last-child { padding-top: 124px; }
+ .challenge > div:last-child h3 { margin-bottom: 52px; }
+ .challenge p { max-width: none; margin: 0 0 28px; color: #2a2829; font-size: 20px; line-height: 1.4; }
+.eyebrow { color: var(--green); font-size: .82rem; font-weight: 700; letter-spacing: .15em; }
+ .button { display: inline-block; margin-top: 13px; padding: 0; border: 0; background: transparent; color: var(--green); font-size: 17px; font-weight: 700; text-decoration: none; }
+ .button:hover { background: transparent; color: #0e684d; text-decoration: underline; }
+.button:focus-visible, .page a:focus-visible { outline: 3px solid #edaa35; outline-offset: 4px; }
+
+ .figure { width: 100%; margin: 34px auto; }
+ .figure img { display: block; width: 100%; height: auto; }
+ .heroVideo { margin: 46px auto 47px; }
+ .process { min-height: 926px; margin-inline: calc(0px - var(--page-gutter)); padding: 72px var(--page-gutter); background: #045936; color: #fff; }
+ .process > .eyebrow { margin: 0 0 62px; color: #fff; font-size: 20px; line-height: 24px; letter-spacing: 0; }
+ .process h2 { color: #fff; font: 700 20px/24px var(--font-sf-pro); }
+ .chapter { padding: 31px 0 56px; }
+ .chapter:not(.finalDesign) { display: grid; width: 100vw; margin-inline: calc(50% - 50vw); grid-template-columns: 574px minmax(0, 1fr); column-gap: 0; align-items: start; }
+ .chapter:not(.finalDesign) > h2:first-child { grid-column: 2; grid-row: 1; max-width: 752px; margin: 0; color: #250f2f; font: 700 45px/1.2 var(--font-sf-pro); letter-spacing: .05em; }
+ .chapter:not(.finalDesign) > p:first-of-type { grid-column: 2; grid-row: 2; max-width: 752px; margin: 41px 0 0; line-height: 28px; }
+ .chapter:not(.finalDesign) > .number { grid-column: 1; grid-row: 1; position: relative; left: 69px; margin: 0; color: #000; font: 400 80px/1.1 var(--font-serif), Georgia, serif; }
+ .chapter:not(.finalDesign) > .eyebrow { grid-column: 1; grid-row: 2; position: relative; top: -8px; left: 69px; max-width: 116px; margin: 0; color: #000; font-size: 17px; line-height: 1.4; letter-spacing: 0; }
+ .chapter:not(.finalDesign) > :nth-child(n + 5) { grid-column: 2; }
+ .chapter:not(.finalDesign) > h3 { width: fit-content; max-width: 100%; margin: 35px 0 28px; }
+ .chapter:not(.finalDesign) > p:not(.eyebrow):not(:first-of-type) { max-width: 598px; }
+ .chapter:not(.finalDesign) > p:has(+ .figure) { max-width: 616px; }
+ .chapter:not(.finalDesign) > h3:first-of-type { margin-top: 164px; }
+ .chapter.discovery:not(.finalDesign) > h3:nth-of-type(2) { margin-top: 40px; margin-bottom: 34px; }
+ .chapter.discovery:not(.finalDesign) > .figure + h3 { margin-top: 81px; }
+ .discovery > p + .figure { margin-top: 11px; }
+ .discovery > .metrics { margin: 50px 0 109px; }
+ .discovery > .metrics > .figure { margin-top: 2px; }
+ .chapter.discovery:not(.finalDesign) > h3:nth-of-type(4) { margin-bottom: 13px; }
+ .chapter.discovery:not(.finalDesign) > h3:nth-of-type(3) { margin-bottom: 30px; }
+ .discovery > .figure + .columns { grid-template-columns: 315px 315px; column-gap: 81px; margin-top: 21px; margin-bottom: 80px; padding-left: 26px; }
+ .discovery > .columns article h3 { margin-bottom: 11px; }
+ .discovery > .columns article:last-child h3 { margin-top: 37px; margin-bottom: 12px; }
+ .chapter.discovery:not(.finalDesign) > h3:nth-of-type(5) { margin-bottom: 49px; }
+ .discovery > .caption { max-width: 616px; margin: 44px 0 0; }
+ .discovery > .figure + .caption { margin-top: -37px; }
+ .discovery > .caption + .figure { margin-top: 14px; }
+ .discovery { padding-bottom: 26px; }
+ .chapter.finalDesign { padding: 56px 0; }
+ .process + .chapter, .chapter:not(.finalDesign) + .chapter:not(.finalDesign) { margin-top: 161px; }
+ .steps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 116px; row-gap: 100px; }
+ .steps article, .columns article, .metrics article { min-width: 0; }
+ .steps article { display: grid; grid-template-columns: 126px minmax(0, 1fr); align-content: start; padding: 0; background: none; }
+ .steps article > span { grid-column: 1; grid-row: 1 / span 3; color: #fff; font: 400 83.25px/1.1 var(--font-serif), Georgia, serif; }
+ .steps article > h2 { grid-column: 2; margin: 0 0 22px; padding-top: 3px; }
+ .steps article > p { grid-column: 2; max-width: 450px; margin: 0; color: #f0f0f0; font-size: 20px; line-height: 1.4; }
+ .steps article > .method { min-height: 44px; margin: 0 0 23px; color: #fff; font-size: 17px; line-height: 1.2; font-style: italic; }
+ .chapter > .figure { max-width: 1200px; margin: 40px auto 64px; }
+ .chapter:not(.finalDesign) > .figure { margin-left: 0; margin-right: 0; }
+ .columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px; margin: 28px 0; }
+ .metrics { display: grid; grid-template-columns: 334px 494px; column-gap: 38px; row-gap: 8px; align-items: start; margin: 45px 0 94px; }
+ .metrics article { grid-column: 1; padding: 0; background: none; }
+ .metrics article:first-of-type { grid-row: 1; }
+ .metrics article:nth-of-type(2) { grid-row: 3; margin-top: 49px; }
+ .metrics > p:first-of-type { grid-column: 1; grid-row: 2; max-width: 334px; margin: 0; line-height: 28px; }
+ .metrics > p:nth-of-type(2) { grid-column: 1; grid-row: 4; max-width: 334px; margin: 10px 0 0; line-height: 28px; }
+ .metrics > .figure { grid-column: 2; grid-row: 1 / span 4; width: 100%; max-width: 494px; margin: 0; }
+ .metrics strong { display: block; color: #000; font: 700 32px/1.5 var(--font-sf-pro); }
+ .metrics article p { max-width: none; margin: 7px 0 0; font-size: 20px; font-weight: 700; line-height: 28px; }
+ .goals { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 24px 0 48px; }
+ .goals span { padding: 18px; border-left: 3px solid var(--green); background: #f3f7f4; }
+ .chapter.priorities > h3.insightHeading { margin: 84px 0 25px; }
+ .chapter.priorities > h3.improvementHeading { margin-top: 169px; margin-bottom: 25px; }
+ .priorities > .insightGrid { display: grid; width: 765px; max-width: 100%; grid-template-columns: 335px 335px; column-gap: 95px; row-gap: 47px; margin: 0; }
+ .insightGrid article { min-width: 0; }
+ .insightGrid article > .figure { width: 100%; max-width: 335px; margin: 0; }
+ .insightCopy { display: flex; align-items: flex-start; gap: 10px; margin-top: 19px; }
+ .insightCopy > span { flex: 0 0 25px; color: #000; font-size: 20px; line-height: 48px; }
+ .insightCopy > p { max-width: none; margin: 0; font-size: 20px; line-height: 28px; }
+ .chapter.priorities > h3.goalsHeading { margin-top: 150px; }
+ .priorities > .goals { margin: 63px 0 126px; }
+ .chapter.priorities > h3.contentStrategyHeading { margin-top: 35px; }
+ .blueprint > .caption { max-width: 616px; margin: 28px 0 0; }
+ .blueprint > .figure + .caption { margin-top: 28px; }
+ .decisionGrid { display: grid; max-width: 736px; grid-template-columns: 296px 296px; column-gap: 144px; row-gap: 46px; margin: 0; padding: 0; }
+ .decisionGrid article { display: grid; gap: 5px; min-width: 0; }
+ .decisionGrid article > span { font-size: 20px; line-height: 48px; }
+ .decisionGrid article > p { max-width: none; margin: 0; line-height: 28px; }
+ .treeImages { display: grid; max-width: 823px; grid-template-columns: 242px 563px; column-gap: 18px; align-items: start; margin: 0; }
+ .treeImages > .figure { width: 100%; margin: 0; }
+ .treeImages > .figure:first-child { margin-top: 72px; }
+ .priorities { padding-bottom: 113px; }
+ .priorities > .contentStrategyHeading + p { font-size: 26px; line-height: 36.4px; letter-spacing: 2.6px; }
+ .chapter.blueprint { padding-bottom: 47px; }
+ .chapter.blueprint:not(.finalDesign) > h3:first-of-type { margin-top: 131px; }
+ .blueprint > p + .figure { margin-top: 62px; }
+ .blueprint > .caption + .decisionGrid { margin-top: 34px; }
+ .blueprint > .decisionGrid + h3 { margin-top: 80px; }
+ .blueprint > h3 + .figure { margin-top: 11px; }
+ .blueprint > .figure + h3 { margin-top: 60px; }
+ .blueprint > p + .treeImages { margin-top: 59px; }
+ .chapter.execution { padding-bottom: 74px; }
+ .chapter.execution > p:first-of-type { margin-top: 7px; }
+ .chapter.execution > h3:first-of-type { margin-top: 109px; margin-bottom: 0; }
+ .chapter.execution > h3:first-of-type + .figure { margin-top: -2px; }
+ .chapter.execution > .figure + h3 { margin-top: 65px; }
+ .chapter.execution > p + p { margin-top: 8px; }
+ .chapter.execution > p + .figure { margin-top: 60px; }
+
+ .chapter.finalDesign { padding: 72px 0 233px; }
+ .finalDesign > .columns { grid-template-columns: 620px 620px; column-gap: 28px; margin: 0; }
+ .finalDesign > .columns article { min-width: 0; }
+ .finalDesign > .columns article:first-child,
+ .finalDesign > .columns article:last-child { grid-column: auto; grid-row: auto; }
+ .finalDesign > .columns article > .figure { width: 100%; max-width: 620px; margin: 0; }
+ .finalDesign > .columns article > .figure img { width: 100%; }
+ .finalDesign > .columns article > h3 { max-width: 407px; margin: 0 0 34px; font-size: 20px; line-height: 24px; }
+ .finalDesign > .columns article > p { max-width: 407px; margin: 0; font-size: 20px; line-height: 28px; letter-spacing: normal; }
+ .finalDesign > .columns:first-of-type { margin-top: 156px; margin-bottom: 213px; }
+ .finalDesign > .columns:nth-of-type(2) { margin-bottom: 192px; }
+ .finalDesign > .columns:nth-of-type(3) { margin-bottom: 192px; }
+ .finalDesign > .columns:last-of-type { margin-bottom: 207px; }
+ .finalDesign > .columns:first-of-type article:last-child { padding: 55px 0 0 109px; }
+ .finalDesign > .columns:nth-of-type(2) article:first-child { padding: 58px 0 0 107px; }
+ .finalDesign > .columns:nth-of-type(3) article:last-child { padding: 106px 0 0 109px; }
+ .finalDesign > .columns:last-of-type article:first-child { padding: 112px 0 0 107px; }
+ .finalDesign > .columns:nth-of-type(2) article > h3,
+ .finalDesign > .columns:nth-of-type(3) article > h3 { margin-bottom: 33px; }
+ .finalDesign > .columns:nth-of-type(3) article > h3 { margin-bottom: 35px; }
+ .finalDesign > .figure:last-child { width: 100%; max-width: 1211px; margin: 31px auto 0; }
+ .finalDesign > .figure:last-child img { width: 100%; }
+ .finalDesign > h2 { max-width: 553px; margin-left: -12px; white-space: nowrap; color: #082c32; font: 700 45px/1.2 var(--font-sf-pro); }
+ .finalDesign > .columns { position: relative; left: 2px; }
+ .finalDesign > .columns:first-of-type article:last-child,
+ .finalDesign > .columns:nth-of-type(3) article:last-child { padding-left: 106px; }
+ .finalDesign > .columns:nth-of-type(3) article > p { max-width: 419px; }
+ .chapter.reflection { padding: 47px 0 225px; }
+ .chapter.reflection:not(.finalDesign) > p:first-of-type { margin-top: 6px; }
+ .chapter.reflection:not(.finalDesign) > .number { top: -15px; }
+ .chapter.reflection:not(.finalDesign) > .eyebrow { top: -1px; }
+ .reflectionGrid { display: grid; width: 747px; max-width: 100%; grid-template-columns: 342px 342px; column-gap: 63px; margin-top: 102px; }
+ .reflectionGrid article { min-width: 0; }
+ .reflectionGrid article > span { display: block; margin-bottom: 7px; font: 400 32px/48px var(--font-serif), Georgia, serif; }
+ .reflectionGrid article > h3 { margin: 7px 0 9px; font: 700 20px/28px var(--font-sf-pro); }
+ .reflectionGrid article > p { max-width: none; margin: 0; font-size: 20px; line-height: 28px; }
+ .chapter.reflection {
+  background: linear-gradient(180deg, #080004 20.1754%, #656565 55.2632%, #fff 100%);
+  color: #f0f0f0;
+}
+ .chapter.reflection:not(.finalDesign) > h2:first-child,
+ .chapter.reflection:not(.finalDesign) > .number,
+ .chapter.reflection:not(.finalDesign) > .eyebrow,
+ .chapter.reflection h3 { color: #f0f0f0; }
+
+
+ @media (max-width: 1100px) {
+  .hero { min-height: 0; padding-top: 80px; }
+  .overview { min-height: 350px; padding-top: 100px; }
+  .process + .chapter, .chapter:not(.finalDesign) + .chapter:not(.finalDesign) { margin-top: 96px; }
+  .details { grid-template-columns: 1fr; min-height: 0; padding: 48px 0; }
+  .detailsContent { grid-column: 1; width: 100%; max-width: 760px; margin: 0 auto; }
+  .facts { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: none; }
+  .summary { width: auto; max-width: none; margin: 40px 0 0; }
+  .challenge { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; max-width: none; min-height: 0; margin: 0; padding: 48px 0; }
+  .challenge > div:last-child { padding-top: 0; }
+  .challenge h3, .challenge > div:last-child h3 { margin-bottom: 20px; }
+  .process { min-height: 0; padding-block: 56px; }
+  .process > .eyebrow { margin-bottom: 40px; }
+  .steps { column-gap: 40px; row-gap: 60px; }
+  .steps article { grid-template-columns: 80px minmax(0, 1fr); }
+  .steps article > span { font-size: 56px; }
+  .chapter:not(.finalDesign) { width: auto; margin-inline: 0; grid-template-columns: 180px minmax(0, 1fr); column-gap: 30px; }
+  .chapter:not(.finalDesign) > h2:first-child { max-width: none; font-size: 38px; }
+  .chapter:not(.finalDesign) > p:first-of-type { max-width: none; }
+  .chapter:not(.finalDesign) > .number { left: -6px; font-size: 56px; }
+  .chapter:not(.finalDesign) > .eyebrow { top: -30px; left: -6px; }
+  .metrics { grid-template-columns: minmax(0, 1fr); gap: 20px; margin: 32px 0; }
+  .metrics > article:first-of-type,
+  .metrics > article:nth-of-type(2),
+  .metrics > p:first-of-type,
+  .metrics > p:nth-of-type(2),
+  .metrics > .figure { grid-column: 1; grid-row: auto; margin: 0; max-width: 100%; }
+  .metrics > .figure { width: 100%; max-width: 495px; justify-self: start; }
+  .priorities > .insightGrid { width: auto; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; row-gap: 36px; }
+  .priorities > .insightGrid article > .figure { max-width: 335px; }
+  .chapter.priorities > h3.insightHeading,
+  .chapter.priorities > h3.improvementHeading,
+  .chapter.priorities > h3.goalsHeading,
+  .chapter.priorities > h3.contentStrategyHeading { margin: 40px 0 20px; }
+  .priorities > .goals { margin: 24px 0 48px; }
+  .decisionGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; row-gap: 30px; }
+  .blueprint > .caption { margin-top: 24px; }
+  .treeImages { grid-template-columns: minmax(0, 242px) minmax(0, 1fr); gap: 18px; }
+  .chapter.discovery:not(.finalDesign) > h3:nth-of-type(2),
+  .chapter.discovery:not(.finalDesign) > h3:nth-of-type(3),
+  .chapter.discovery:not(.finalDesign) > h3:nth-of-type(4),
+  .chapter.discovery:not(.finalDesign) > h3:nth-of-type(5) { margin: 32px 0 20px; }
+  .chapter.discovery:not(.finalDesign) > .figure + h3 { margin-top: 32px; }
+  .discovery > p + .figure { margin-top: 24px; }
+  .discovery > .metrics, .discovery > .figure + .columns { margin: 32px 0; }
+  .discovery > .figure + .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; padding-left: 0; }
+  .discovery > .columns article h3, .discovery > .columns article:last-child h3 { margin: 0 0 12px; }
+  .discovery > .caption, .discovery > .figure + .caption { max-width: none; margin: 0 0 8px; }
+  .discovery > .caption + .figure { margin: 24px 0 32px; }
+  .priorities { padding-bottom: 56px; }
+  .priorities > .contentStrategyHeading + p { font-size: 20px; line-height: 28px; letter-spacing: normal; }
+  .chapter.blueprint { padding-bottom: 56px; }
+  .chapter.blueprint:not(.finalDesign) > h3:first-of-type { margin-top: 32px; }
+  .blueprint > p + .figure { margin-top: 24px; }
+  .blueprint > .caption + .decisionGrid { margin-top: 0; }
+  .blueprint > .decisionGrid + h3 { margin-top: 32px; }
+  .blueprint > h3 + .figure { margin-top: 24px; }
+  .blueprint > .figure + h3 { margin-top: 32px; }
+  .blueprint > p + .treeImages { margin-top: 32px; }
+  .chapter.execution { padding-bottom: 56px; }
+  .chapter.execution > p:first-of-type { margin-top: 0; }
+  .chapter.execution > h3:first-of-type { margin: 32px 0 20px; }
+  .chapter.execution > h3:first-of-type + .figure { margin-top: 24px; }
+  .chapter.execution > .figure + h3 { margin-top: 32px; }
+  .chapter.execution > p + p { margin-top: 0; }
+  .chapter.execution > p + .figure { margin-top: 24px; }
+  .chapter.finalDesign { padding: 56px 0 80px; }
+  .finalDesign > .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; margin: 32px 0; }
+  .finalDesign > .columns:first-of-type,
+  .finalDesign > .columns:nth-of-type(2),
+  .finalDesign > .columns:nth-of-type(3),
+  .finalDesign > .columns:last-of-type { margin: 32px 0; }
+  .finalDesign > .columns article:first-child,
+  .finalDesign > .columns article:last-child { padding: 0; }
+  .finalDesign > .columns article > p { max-width: 100%; font-size: 20px; line-height: 28px; letter-spacing: normal; }
+  .finalDesign > .columns article > h3 { margin: 0 0 16px; }
+  .finalDesign > .figure:last-child { margin: 40px auto 0; }
+  .chapter.reflection { padding: 48px 0; }
+  .reflectionGrid { width: auto; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; margin-top: 32px; }
+  .reflectionGrid article > p { font-size: 20px; line-height: 28px; }
+ }
+ @media (max-width: 900px) {
+  .challenge, .steps { grid-template-columns: 1fr; }
+  .challenge { gap: 32px; }
+  .steps { row-gap: 40px; }
+ }
+ @media (max-width: 760px) {
+  .page { padding: 0 var(--page-gutter) 64px; }
+  .hero { min-height: 0; padding: 72px 0 40px; }
+  .hero h1 { font-size: clamp(2.25rem, 9vw, 3.5rem); }
+  .hero .subtitle { margin-top: 16px; font-size: clamp(2rem, 8vw, 3rem); }
+  .details { padding: 32px 0; }
+  .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 14px; }
+  .facts strong { font-size: 18px; line-height: 1.2; }
+  .facts span, .summary p, .challenge p { font-size: 17px; }
+  .chapter p { font-size: 17px; }
+  .summary { margin-top: 32px; padding: 16px; }
+  .summary h2 { font-size: 20px; }
+  .summary h2:not(:first-child) { margin-top: 32px; }
+  .summary p { line-height: 1.5; }
+  .heroVideo { margin: 28px auto 32px; }
+  .overview { min-height: 0; padding: 72px 0 56px; }
+  .overview .eyebrow { margin-bottom: 24px; font-size: 16px; }
+  .overview h2 { font-size: clamp(2rem, 8vw, 2.8rem); }
+  .challenge { padding: 36px 0; }
+  .challenge h3, .challenge > div:last-child h3 { margin-bottom: 18px; font-size: 18px; }
+  .challenge p { line-height: 1.55; }
+  .process { padding-block: 48px; }
+  .process > .eyebrow { margin-bottom: 32px; font-size: 16px; }
+  .steps { gap: 36px; }
+  .steps article { grid-template-columns: 62px minmax(0, 1fr); }
+  .steps article > span { font-size: 48px; }
+  .steps article > h2 { margin-bottom: 12px; padding-top: 0; font-size: 18px; }
+  .steps article > p { font-size: 17px; line-height: 1.5; }
+  .steps article > .method { min-height: 0; margin-bottom: 14px; font-size: 15px; }
+  .chapter:not(.finalDesign) { display: block; padding: 36px 0 48px; }
+  .chapter:not(.finalDesign) > h2:first-child { margin: 0 0 20px; font-size: clamp(2rem, 8vw, 2.8rem); }
+  .chapter:not(.finalDesign) > p:first-of-type { margin: 0 0 24px; }
+  .chapter:not(.finalDesign) > .number { left: 0; font-size: 48px; }
+  .chapter:not(.finalDesign) > .eyebrow { position: static; max-width: none; margin: 12px 0 20px; font-size: 15px; }
+  .chapter:not(.finalDesign) > h3:first-of-type { margin-top: 32px; }
+  .process + .chapter, .chapter:not(.finalDesign) + .chapter:not(.finalDesign) { margin-top: 48px; }
+  .overview, .columns, .metrics, .steps { grid-template-columns: 1fr; }
+  .process, .chapter { padding-block: 48px; }
+  .columns { gap: 10px; }
+  .figure { margin: 30px auto; }
+  .goals { grid-template-columns: 1fr 1fr; }
+  .priorities > .insightGrid,
+  .decisionGrid,
+  .treeImages { grid-template-columns: 1fr; gap: 24px; }
+  .priorities > .insightGrid article > .figure { max-width: 100%; }
+  .insightCopy > span { font-size: 17px; line-height: 26px; }
+  .treeImages > .figure:first-child { margin-top: 0; }
+  .finalDesign > .columns article:first-child,
+  .finalDesign > .columns article:last-child { grid-column: auto; grid-row: auto; }
+  .finalDesign > h3:nth-of-type(2) ~ p,
+  .finalDesign > h3:nth-of-type(3) ~ p { max-width: none; }
+  .finalDesign > h3:nth-of-type(2) ~ .figure,
+  .finalDesign > h3:nth-of-type(3) ~ .figure { width: 100%; margin: 24px 0 40px; }
+  .chapter.priorities,
+  .chapter.blueprint,
+  .chapter.execution { padding: 48px 0; }
+  .priorities > .contentStrategyHeading + p { font-size: 17px; line-height: 1.5; letter-spacing: normal; }
+  .chapter.blueprint:not(.finalDesign) > h3:first-of-type { margin-top: 32px; }
+  .blueprint > p + .figure,
+  .blueprint > h3 + .figure,
+  .blueprint > .figure + h3 { margin-top: 24px; }
+  .blueprint > .caption + .decisionGrid,
+  .blueprint > .decisionGrid + h3,
+  .blueprint > p + .treeImages { margin-top: 24px; }
+  .chapter.execution > p:first-of-type { margin-top: 0; }
+  .chapter.execution > h3:first-of-type { margin: 32px 0 16px; }
+  .chapter.execution > h3:first-of-type + .figure,
+  .chapter.execution > .figure + h3,
+  .chapter.execution > p + .figure { margin-top: 24px; }
+  .chapter.execution > p + p { margin-top: 0; }
+  .chapter.finalDesign { padding: 48px 0; }
+  .finalDesign > .columns { grid-template-columns: 1fr; gap: 18px; }
+  .finalDesign > .columns:first-of-type,
+  .finalDesign > .columns:nth-of-type(2),
+  .finalDesign > .columns:nth-of-type(3),
+  .finalDesign > .columns:last-of-type { margin: 32px 0; }
+  .finalDesign > .columns article:first-child,
+  .finalDesign > .columns article:last-child { padding: 0; }
+  .finalDesign > .columns article > .figure { max-width: 100%; }
+  .finalDesign > .columns article > h3 { margin: 0 0 16px; }
+  .finalDesign > .columns article > p { max-width: 100%; font-size: 17px; line-height: 1.5; letter-spacing: normal; }
+  .finalDesign > .figure:last-child { margin: 32px auto 0; }
+  .chapter.reflection { padding: 48px 0; }
+  .chapter.reflection:not(.finalDesign) > p:first-of-type { margin: 0 0 24px; }
+  .chapter.reflection:not(.finalDesign) > .number { top: 0; }
+  .chapter.reflection:not(.finalDesign) > .eyebrow { position: static; top: auto; margin: 12px 0 20px; }
+  .reflectionGrid { grid-template-columns: 1fr; gap: 36px; margin-top: 32px; }
+  .reflectionGrid article > span { font-size: 28px; line-height: 40px; }
+  .reflectionGrid article > h3 { font-size: 18px; line-height: 24px; }
+  .reflectionGrid article > p { font-size: 17px; line-height: 1.5; }
+  .finalDesign > h2 { max-width: none; margin-left: 0; white-space: normal; }
+}
