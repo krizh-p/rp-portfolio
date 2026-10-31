@@ -16,7 +16,7 @@ const imageSizes = [
   [1025, 805], [891, 1183], [1655, 1427], [775, 525], [775, 649], [775, 525],
   [775, 525], [1514, 1451],
 ];
-const imageDisplayWidths = [946, 787, 495, 787, 789, 789, 789, 789, 335, 335, 335, 335, 335, 335, 335, 787, 833, 242, 563, 713, 787, 620, 620, 620, 620, 1211];
+const imageDisplayWidths = [940.5, 787, 495, 787, 789, 789, 789, 789, 335, 335, 335, 335, 335, 335, 335, 787, 833, 242, 563, 713, 787, 620, 620, 620, 620, 1211];
 function CaseImage({ index, className = "" }: { index: number; className?: string }) {
   const [width, height] = imageSizes[index];
   return (
@@ -27,6 +27,9 @@ function CaseImage({ index, className = "" }: { index: number; className?: strin
           poster={images[index]}
           label="Big Picture Philadelphia prototype video"
           aspectRatio={`${width} / ${height}`}
+          controls={false}
+          autoPlay
+          reducedMotionControl
         />
       ) : (
         <Image

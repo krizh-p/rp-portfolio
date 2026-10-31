@@ -47,3 +47,13 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Local-only fidelity audit archive; do not publish browser captures or working reports.
+docs/research/rutvi-portfolio/source-screenshots/
+docs/research/rutvi-portfolio/local-screenshots/
+docs/research/rutvi-portfolio/fidelity-audit/
+docs/research/rutvi-portfolio/fidelity-repair/
+docs/research/rutvi-portfolio/fidelity-research/
+docs/tickets/portfolio-fidelity/
+scripts/fidelity-repair-browser.mjs
+/d

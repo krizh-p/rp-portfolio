@@ -16,13 +16,13 @@ export function MobileNavigation() {
 
   return (
     <details className="menu-details">
-      <summary aria-label="Open navigation menu"><span /><span /><span /></summary>
+      <summary aria-label="Toggle navigation menu"><span /><span /><span /></summary>
       <div className="mobile-nav" onClick={closeMenu}>
         <Link href="/">Work</Link>
         <Link href="/about">About</Link>
         <a href={email}>Contact</a>
-        <a href={portfolioMedia.resumes.header} target="_blank" rel="noreferrer">Resume</a>
         <a href={linkedIn} target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href={portfolioMedia.resumes.header} target="_blank" rel="noreferrer">Resume</a>
       </div>
     </details>
   );

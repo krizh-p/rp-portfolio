@@ -1282,6 +1282,33 @@
         }
       }
     },
+    "footer": {
+      "contact": {
+        "family": "Space Grotesk",
+        "weight": 700,
+        "sourceUrl": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/spacegrotesk/v6/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2",
+        "localPath": "/sites/rutvi-portfolio/fonts/space-grotesk-bold.woff2",
+        "mime": "font/woff2",
+        "bytes": 21168
+      },
+      "name": {
+        "family": "SF Pro Text Semibold",
+        "weight": 400,
+        "sourceUrl": "https://static.wixstatic.com/ufonts/bf9bb4_dc5a373d1d394836859f2b6620f1fee6/woff2/file.woff2",
+        "localPath": "/sites/rutvi-portfolio/fonts/sf-pro-text-semibold.woff2",
+        "mime": "font/woff2",
+        "bytes": 103976,
+        "computedFamily": "wfont_bf9bb4_dc5a373d1d394836859f2b6620f1fee6, wf_dc5a373d1d394836859f2b662, orig_sf_pro_text_semibold"
+      },
+      "copyright": {
+        "family": "Helvetica W01 Roman",
+        "weight": 400,
+        "sourceUrl": "https://static.parastorage.com/fonts/v2/2af1bf48-e783-4da8-9fa0-599dde29f2d5/v1/helvetica-w01-roman.woff2",
+        "localPath": "/sites/rutvi-portfolio/fonts/helvetica-w01-roman.woff2",
+        "mime": "font/woff2",
+        "bytes": 36712
+      }
+    },
     "observedComputed": {
       "paragraph": {
         "family": "wfont_79836d_445ae91841b4407289bd89340ef7d4ed, wf_445ae91841b4407289bd89340, orig_sf_pro_text_light",

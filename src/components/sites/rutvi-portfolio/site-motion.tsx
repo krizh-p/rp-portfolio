@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
-const revealSelector = "main > header, main > section, main > figure, main .project-card, main .job";
+const revealSelector = "main > header, main > section:not([data-no-scroll-reveal]), main > figure, main .project-card, main .job, main [data-scroll-reveal-item]";
 
 export function SiteMotion() {
   const pathname = usePathname();
@@ -11,7 +11,10 @@ export function SiteMotion() {
   useEffect(() => {
     const header = document.querySelector<HTMLElement>(".site-header");
     const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const targets = Array.from(document.querySelectorAll<HTMLElement>(revealSelector));
+    const targets = Array.from(document.querySelectorAll<HTMLElement>(revealSelector)).filter((target) => {
+      const page = target.closest<HTMLElement>("main")?.dataset.page;
+      return page !== "home" && page !== "chopdawg" && !target.hasAttribute("data-kerzner-discovery");
+    });
     const observer = new IntersectionObserver((entries, activeObserver) => {
       for (const entry of entries) {
         if (entry.isIntersecting) {
@@ -22,6 +25,20 @@ export function SiteMotion() {
     }, { threshold: 0.05, rootMargin: "0px 0px -5% 0px" });
 
     targets.forEach((target) => target.setAttribute("data-scroll-reveal", ""));
+
+    let previousY = window.scrollY;
+    const syncHeaderState = () => {
+      const currentY = window.scrollY;
+      header?.classList.toggle("is-scrolled", currentY > 0);
+
+      if (preference.matches || currentY <= 80 || currentY < previousY) {
+        header?.classList.remove("is-hidden");
+      } else if (currentY > previousY) {
+        header?.classList.add("is-hidden");
+      }
+
+      previousY = currentY;
+    };
 
     const syncMotionPreference = () => {
       const enabled = !preference.matches;
@@ -37,34 +54,16 @@ export function SiteMotion() {
       }
     };
 
-    let previousY = window.scrollY;
-    let scrollScheduled = false;
-    const handleScroll = () => {
-      if (scrollScheduled) return;
-      scrollScheduled = true;
-
-      window.requestAnimationFrame(() => {
-        const currentY = window.scrollY;
-        if (preference.matches || currentY < 80) {
-          header?.classList.remove("is-hidden");
-        } else if (Math.abs(currentY - previousY) > 4) {
-          header?.classList.toggle("is-hidden", currentY > previousY);
-        }
-        previousY = currentY;
-        scrollScheduled = false;
-      });
-    };
-
     syncMotionPreference();
+    syncHeaderState();
     preference.addEventListener("change", syncMotionPreference);
-    window.addEventListener("scroll", handleScroll, { passive: true });
-
+    window.addEventListener("scroll", syncHeaderState, { passive: true });
     return () => {
       observer.disconnect();
       preference.removeEventListener("change", syncMotionPreference);
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", syncHeaderState);
       document.documentElement.classList.remove("has-scroll-motion");
-      header?.classList.remove("is-hidden");
+      header?.classList.remove("is-scrolled", "is-hidden");
     };
   }, [pathname]);
 

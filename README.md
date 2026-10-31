@@ -1,6 +1,7 @@
 # Rutvi Purohit portfolio
 
-Editable Next.js 16 portfolio rebuild for Rutvi Purohit. See [the portfolio handoff](docs/research/rutvi-portfolio/HANDOFF.md) for route coverage, verification, screenshots, and known gaps.
+Editable Next.js 16 portfolio rebuild for Rutvi Purohit. See [the portfolio handoff](docs/research/rutvi-portfolio/HANDOFF.md) for route coverage, last recorded verification, and known gaps.
+Ticket tracking is repo-local and lightweight: see [the ticket guidelines](docs/agents/issue-tracker.md); tickets live under `docs/tickets/<feature-name>/`.
 
 Use Node.js 24 or newer and pnpm 12.16.1:
 

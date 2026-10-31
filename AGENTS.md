@@ -11,15 +11,18 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 # Website Reverse-Engineer Template
 
 ## What This Is
+
 A Next.js portfolio project based on the AI Website Cloner template. For a website rebuild, follow `.agents/skills/clone-website/SKILL.md` and its relevant references.
 
 ## Tech Stack
+
 - **Framework:** Next.js 16 (App Router, React 19, TypeScript strict)
 - **UI:** shadcn/ui (Base UI primitives, Tailwind CSS v4, `cn()` utility)
 - **Icons:** Lucide React (default — will be replaced/supplemented by extracted SVGs)
 - **Styling:** Tailwind CSS v4 with oklch design tokens
 
 ## Commands
+
 - `pnpm run dev` — Start dev server
 - `pnpm run build` — Production build
 - `pnpm run lint` — ESLint check
@@ -27,6 +30,7 @@ A Next.js portfolio project based on the AI Website Cloner template. For a websi
 - `pnpm run check` — Run lint + typecheck + build
 
 ## Code Style
+
 - TypeScript strict mode, no `any`
 - Named exports, PascalCase components, camelCase utils
 - Tailwind utilities or scoped CSS; avoid inline styles unless behavior needs dynamic values
@@ -34,12 +38,14 @@ A Next.js portfolio project based on the AI Website Cloner template. For a websi
 - Responsive: mobile-first
 
 ## Design Principles
+
 - **Pixel-perfect emulation** — match the target's spacing, colors, typography exactly
 - **No personal aesthetic changes during emulation phase** — match 1:1 first, customize later
 - **Real content** — use actual text and assets from the target site, not placeholders
 - **Beauty-first** — every pixel matters
 
 ## Project Structure
+
 ```
 src/
   app/              # Next.js routes
@@ -65,6 +71,10 @@ scripts/            # Asset download scripts
 ```
 
 ## Agent Workflow
+
 - Edit `.agents/skills/clone-website/` for cloning-workflow changes. It is the canonical skill used by Codex and OMP.
 - Keep `.claude/commands/clone-website.md` as a thin Claude Code bridge to the canonical skill; do not duplicate the workflow there.
 
+### Issue tracker
+
+Tickets live as Markdown in `docs/tickets/<feature-name>/`. See `docs/agents/issue-tracker.md`.
