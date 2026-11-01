@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { publicAsset, type PublicAssetPath } from "@/components/sites/rutvi-portfolio/media";
 import styles from "./motion-video.module.css";
 
 type MotionVideoProps = {
-  src: string;
-  poster: string;
+  src: PublicAssetPath;
+  poster: PublicAssetPath;
   label: string;
   aspectRatio?: string;
   className?: string;
@@ -91,8 +92,8 @@ export function MotionVideo({
       <video
         ref={videoRef}
         className={[styles.video, videoClassName].filter(Boolean).join(" ")}
-        src={src}
-        poster={poster}
+        src={publicAsset(src)}
+        poster={publicAsset(poster)}
         aria-label={label}
         aria-hidden={decorative || undefined}
         controls={controls}

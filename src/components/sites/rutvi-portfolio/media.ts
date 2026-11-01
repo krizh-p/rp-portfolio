@@ -1,3 +1,10 @@
+export type PublicAssetPath = `/sites/rutvi-portfolio/${string}`;
+
+export function publicAsset(path: PublicAssetPath): string {
+  return `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${path}`;
+}
+
+
 export const portfolioMedia = {
   "logo": "/sites/rutvi-portfolio/home/logo.png",
   "heroVideo": "/sites/rutvi-portfolio/home/hero.mp4",
@@ -132,3 +139,4 @@ export const portfolioMedia = {
     "about": "/sites/rutvi-portfolio/resumes/about.pdf"
   }
 } as const;
+

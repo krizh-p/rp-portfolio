@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { portfolioMedia } from "@/components/sites/rutvi-portfolio/media";
+import { portfolioMedia, publicAsset } from "@/components/sites/rutvi-portfolio/media";
 import styles from "./starling-page.module.css";
 import { MotionVideo } from "@/components/sites/rutvi-portfolio/motion-video";
 const images = portfolioMedia.cases.starling;
@@ -19,7 +19,7 @@ function Figure({ index, className = "" }: { index: number; className?: string }
           reducedMotionControl
         />
       ) : (
-        <Image src={images[index]} alt="" width={width} height={height} sizes={index === 21 ? "(max-width: 760px) 100vw, 2309px" : "(max-width: 760px) 100vw, 1100px"} />
+        <Image src={publicAsset(images[index])} alt="" width={width} height={height} sizes={index === 21 ? "(max-width: 760px) 100vw, 2309px" : "(max-width: 760px) 100vw, 1100px"} />
       )}
     </figure>
   );
@@ -105,8 +105,8 @@ export function StarlingPage() {
         <p>On the flip side of the coin, it was important to understand how unhappy family travelers affect airports &amp; its business goals.</p>
         <p>I found that public airports are held accountable by ratings &amp; a good reputation can help them achieve a global benchmark of Airport Excellence such as <a href="https://skytraxratings.com/about">Skytrax</a>. An example of this is the Changi Airport in Singapore. The quality of airport, ratings &amp; reputation directly impact the traveler flow as well as the revenue an airport can generate</p>
         <div className={`${styles.split} ${styles.airportCards}`}>
-          <article><Image src="/sites/rutvi-portfolio/starling/challenge.svg" alt="" width={40} height={40} sizes="40px"/><h3>CHALLENGE</h3><p>50% of airport revenue comes from retail &amp; airport service. With family travel making up for 376 million trips globally, unhappy families could significantly impact an airport&apos;s reputation and its revenue generation.</p></article>
-          <article><Image src="/sites/rutvi-portfolio/starling/opportunity.svg" alt="" width={40} height={40} sizes="40px"/><h3>OPPORTUNITY</h3><p>Airport success relies on revenue, ratings, and catering to family travelers. To enhance passenger trust, loyalty, and overall airport reputation, it&apos;s crucial for airports to better assist solo parents during layovers, ultimately boosting revenue.</p></article>
+          <article><Image src={publicAsset("/sites/rutvi-portfolio/starling/challenge.svg")} alt="" width={40} height={40} sizes="40px"/><h3>CHALLENGE</h3><p>50% of airport revenue comes from retail &amp; airport service. With family travel making up for 376 million trips globally, unhappy families could significantly impact an airport&apos;s reputation and its revenue generation.</p></article>
+          <article><Image src={publicAsset("/sites/rutvi-portfolio/starling/opportunity.svg")} alt="" width={40} height={40} sizes="40px"/><h3>OPPORTUNITY</h3><p>Airport success relies on revenue, ratings, and catering to family travelers. To enhance passenger trust, loyalty, and overall airport reputation, it&apos;s crucial for airports to better assist solo parents during layovers, ultimately boosting revenue.</p></article>
         </div>
       </div>
     </section>

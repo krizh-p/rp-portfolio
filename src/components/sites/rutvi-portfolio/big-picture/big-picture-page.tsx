@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { portfolioMedia } from "@/components/sites/rutvi-portfolio/media";
+import { portfolioMedia, publicAsset } from "@/components/sites/rutvi-portfolio/media";
 import styles from "./big-picture-page.module.css";
 import { MotionVideo } from "@/components/sites/rutvi-portfolio/motion-video";
 
@@ -33,7 +33,7 @@ function CaseImage({ index, className = "" }: { index: number; className?: strin
         />
       ) : (
         <Image
-          src={images[index]}
+          src={publicAsset(images[index])}
           alt={imageAlts[index]}
           width={width}
           height={height}

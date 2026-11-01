@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { portfolioMedia } from "@/components/sites/rutvi-portfolio/media";
+import { portfolioMedia, publicAsset } from "@/components/sites/rutvi-portfolio/media";
 import { MotionVideo } from "@/components/sites/rutvi-portfolio/motion-video";
 import { HomeMotion } from "@/components/sites/rutvi-portfolio/home-motion";
 
@@ -154,7 +154,7 @@ export function HomePage() {
           <div className="intro-portrait-frame">
             <Image
               className="intro-portrait"
-              src="/sites/rutvi-portfolio/home/03-magenta-lanyard-id-badge-with-charms-highres.png"
+              src={publicAsset("/sites/rutvi-portfolio/home/03-magenta-lanyard-id-badge-with-charms-highres.png")}
               alt="Rutvi Purohit wearing her magenta portfolio ID badge"
               width={1022}
               height={1472}
@@ -209,7 +209,7 @@ export function HomePage() {
               <div className="project-image-wrap" data-home-reveal={project.reveal}>
                 <Image
                   className={project.tall ? "project-tall" : undefined}
-                  src={project.image}
+                  src={publicAsset(project.image)}
                   alt={project.alt}
                   width={project.width}
                   height={project.height}

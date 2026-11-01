@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { KeyboardEvent, MouseEvent } from "react";
-import { portfolioMedia } from "@/components/sites/rutvi-portfolio/media";
+import { portfolioMedia, publicAsset } from "@/components/sites/rutvi-portfolio/media";
 
 const linkedIn = "https://www.linkedin.com/in/rutvi-purohit121/";
 const email = "mailto:rish121yb@gmail.com?subject=Let's%20collaborate%20on%20something%20exciting!";
@@ -47,7 +47,7 @@ export function MobileNavigation() {
         <Link href="/about">About</Link>
         <a href={email}>Contact</a>
         <a href={linkedIn} target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href={portfolioMedia.resumes.header} target="_blank" rel="noreferrer">Resume</a>
+        <a href={publicAsset(portfolioMedia.resumes.header)} target="_blank" rel="noreferrer">Resume</a>
       </div>
     </details>
   );

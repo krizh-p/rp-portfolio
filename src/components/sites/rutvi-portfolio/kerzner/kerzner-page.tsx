@@ -1,15 +1,15 @@
 import Image from "next/image";
-import { portfolioMedia } from "@/components/sites/rutvi-portfolio/media";
+import { portfolioMedia, publicAsset, type PublicAssetPath } from "@/components/sites/rutvi-portfolio/media";
 import styles from "./kerzner-page.module.css";
 import { MotionVideo } from "@/components/sites/rutvi-portfolio/motion-video";
 
 const motifByImageIndex: Record<number, string> = {
-  4: "/sites/rutvi-portfolio/kerzner/discovery-motif-lobed.svg",
-  5: "/sites/rutvi-portfolio/kerzner/discovery-motif-three-circles.svg",
-  6: "/sites/rutvi-portfolio/kerzner/discovery-motif-four-circles.svg",
+  4: publicAsset("/sites/rutvi-portfolio/kerzner/discovery-motif-lobed.svg"),
+  5: publicAsset("/sites/rutvi-portfolio/kerzner/discovery-motif-three-circles.svg"),
+  6: publicAsset("/sites/rutvi-portfolio/kerzner/discovery-motif-four-circles.svg"),
 };
 const images = portfolioMedia.cases.kerzner;
-const videoByImageIndex: Record<number, { src: string; label: string }> = {
+const videoByImageIndex: Record<number, { src: PublicAssetPath; label: string }> = {
   3: { src: portfolioMedia.caseVideos.kerzner[0], label: "Nature Shadow Play" },
   4: { src: portfolioMedia.caseVideos.kerzner[1], label: "Underwater Tranquility Scene" },
   5: { src: portfolioMedia.caseVideos.kerzner[2], label: "7639979-hd_1080_1920_30fps.mp4" },
@@ -83,7 +83,7 @@ function CaseImage({
           decorative={decorative}
         />
       ) : (
-        <Image src={images[index]} alt={imageAlts[index]} width={width} height={height} sizes="(max-width: 760px) 100vw, 80vw" className={scrollZoomImageIndexes.has(index) ? styles.scrollZoom : undefined} />
+        <Image src={publicAsset(images[index])} alt={imageAlts[index]} width={width} height={height} sizes="(max-width: 760px) 100vw, 80vw" className={scrollZoomImageIndexes.has(index) ? styles.scrollZoom : undefined} />
       )}
       {motif && <Image src={motif} alt="" aria-hidden="true" width={200} height={200} className={styles.motif} />}
     </figure>
