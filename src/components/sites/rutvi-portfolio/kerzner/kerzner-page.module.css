@@ -95,7 +95,7 @@
   .story h3:not(.storyTitle){font:500 20px/1.4 var(--font-sf-pro)}
   .story .storyTitle{font:700 45px/1.2 var(--font-sf-pro);letter-spacing:0}
   .story p{margin:0 0 28px;color:#42434a;font:400 20px/28px var(--font-sf-pro)}
-  .storyIndex{grid-column:1;grid-row:1;display:flex;flex-direction:column;margin-top:120px}
+  .storyIndex{position:sticky;top:106.8px;grid-column:1;grid-row:1;display:flex;flex-direction:column;align-self:start;margin-top:120px}
   .storyIndex .number{font:400 80px/88px var(--font-serif)}
   .storyIndex .eyebrow{margin:22px 0 0;color:#777!important;font:400 17px/1.4 var(--font-sf-pro)!important;letter-spacing:.15em}
   .storyIntro{grid-column:2;margin:0}
@@ -128,7 +128,7 @@
   .storyPairWide .figure img{display:block;width:100%;height:auto}
   .discoveryStory+.discoveryThird{margin-top:0}
   .discoveryThird+.wide{margin:0}
-  .wide+.decisions{margin-top:172px}
+  .wide+.decisionChapter{margin-top:172px}
 }
 
 @media (min-width:1025px) {
@@ -138,10 +138,16 @@
   .storyPairWide .figure:nth-child(1) img{height:296px;object-fit:cover}
   .storyPairWide .figure:nth-child(2) img{height:433px;object-fit:cover}
   .decisions{position:relative;display:grid;width:min(1263px,calc(100% - 12vw));max-width:1263px;grid-template-columns:minmax(0,5fr) minmax(0,6.07fr);column-gap:45px;min-height:837.3px;margin:0 auto;padding:0;align-content:start}
-  .wide+.decisions{margin-top:172px}
-  .decisions>.storyIndex{position:absolute;left:0;top:120px;margin:0}
-  .decisions>.storyIndex .number{font:400 80px/88px var(--font-serif)}
-  .decisions>.storyIndex .eyebrow{margin:22px 0 0;color:#000!important;font:400 17px/23.8px var(--font-sf-pro)!important;letter-spacing:0}
+  .wide+.decisionChapter{margin-top:172px}
+  .decisionChapter{display:grid;width:min(1260px,calc(100% - 12vw));max-width:1260px;grid-template-columns:minmax(0,5fr) minmax(0,6.07fr);column-gap:45px;margin:0 auto;padding:0;align-content:start}
+  .decisionChapter>.storyIndex{grid-column:1;grid-row:1 / span 5;position:sticky;top:106.8px;align-self:start;margin:120px 0 0}
+  .decisionChapter>.storyIndex .number{font:400 80px/88px var(--font-serif)}
+  .decisionChapter>.storyIndex .eyebrow{margin:22px 0 0;color:#000!important;font:400 17px/23.8px var(--font-sf-pro)!important;letter-spacing:0}
+  .decisionChapter>.decisions{grid-column:1/-1;grid-row:1}
+  .decisionChapter>.decisionOne{grid-column:1/-1;grid-row:2}
+  .decisionChapter>.decisionTwo{grid-column:1/-1;grid-row:3}
+  .decisionChapter>.decisionThree{grid-column:1/-1;grid-row:4}
+  .decisionChapter>.decisionSummary{grid-column:1/-1;grid-row:5}
   .decisions>h2,.decisions>p,.decisions>aside{grid-column:2}
   .decisions>h2{margin:0 0 35px;font:700 45px/54px var(--font-sf-pro);letter-spacing:0}
   .decisions>p{width:min(657px,100%);margin:0 0 18px;color:#42434a;font:400 20px/28px var(--font-sf-pro)}
@@ -172,9 +178,9 @@
   .updatedIA{width:min(902px,100%);margin:73px 0 93px}
   .casinoFlow{width:min(905px,100%);margin:10px 0 129px}
   .decisionThree>p:nth-of-type(4){margin-bottom:0}
-  .decisionSummary+.impact{margin-top:246.7px}
+  .decisionChapter+.impact{margin-top:246.7px}
   .impact{position:relative;display:grid;width:min(1263px,calc(100% - 12vw));max-width:1263px;grid-template-columns:minmax(0,5fr) minmax(0,6.07fr);column-gap:45px;min-height:2958.4px;margin:0 auto;padding:0;align-content:start}
-  .impact>.storyIndex{position:absolute;left:0;top:114px;margin:0}
+  .impact>.storyIndex{grid-column:1;grid-row:1 / span 6;position:sticky;top:106.8px;align-self:start;margin:114px 0 0}
   .impact>.storyIndex .number{font:400 80px/100px var(--font-serif)}
   .impact>.storyIndex .eyebrow{margin:16px 0 0;color:#000!important;font:400 17px/23.8px var(--font-sf-pro)!important;letter-spacing:0}
   .impact>h2{grid-column:2;margin:0 0 19px;font:700 45px/54px var(--font-sf-pro);letter-spacing:0}
@@ -189,7 +195,7 @@
   .impactDining .caption{margin-top:18px}
   .impact+.learnings{margin-top:173px}
   .learnings{position:relative;display:grid;width:min(1260px,calc(100% - 12vw));max-width:1260px;grid-template-columns:502px 342px 64px 342px;column-gap:0;row-gap:66px;min-height:1429px;margin:0 auto;padding:74px 0 0;box-sizing:border-box;align-content:start}
-  .learnings>.storyIndex{position:absolute;left:0;top:70px;margin:0}
+  .learnings>.storyIndex{grid-column:1;grid-row:1 / span 4;position:sticky;top:106.8px;align-self:start;margin:-4px 0 0}
   .learnings>.storyIndex .number{font:400 83.25px/100px var(--font-serif)}
   .learnings>.storyIndex .eyebrow{margin:5px 0 0;color:#000!important;font:400 17px/23.8px var(--font-sf-pro)!important;letter-spacing:0}
   .learnings>h2{grid-column:2/5;width:658px;margin:0;font:700 45px/54px var(--font-sf-pro);letter-spacing:0}
@@ -205,7 +211,6 @@
 @media (min-width:1025px) {
   .kidsClubState img{height:369px;object-fit:cover}
   .kidsClubSolution img{height:506px;object-fit:cover}
-  .decisions>.storyIndex{left:0}
   .impact>.storyIndex .number{font:400 80px/100px var(--font-serif)}
   .decisions>aside p{max-width:608px}
   .decisionOne>.storyFigureGroup,.decisionTwo>.storyFigureGroup,.decisionThree>.storyFigureGroup{max-width:100%}
@@ -241,6 +246,7 @@
   .learnings>article{gap:8px;padding:0}
   .learnings>article:nth-of-type(3),.learnings>article:nth-of-type(4){margin-top:66px}
   .learnings article h3{margin:0 0 8px}
+  .decisionChapter>.decisions,.decisionChapter>.story{width:100%;max-width:none;margin:0}
 }
 
 @media (min-width:1025px) {
@@ -307,4 +313,13 @@
   .cards article:nth-child(1){animation-name:discoveryCardOne}
   .cards article:nth-child(2){animation-name:discoveryCardTwo}
   .cards article:nth-child(3){animation-name:discoveryCardThree}
+}
+@media (prefers-reduced-motion:no-preference) {
+  @supports (animation-timeline:view()) {
+    .scrollZoom{animation-name:kerznerImageZoom;animation-duration:auto;animation-timing-function:linear;animation-fill-mode:both;animation-timeline:view(block);animation-range:cover 2.2% cover 52.7%}
+  }
+}
+@keyframes kerznerImageZoom {
+  from {transform:scale(.3)}
+  to {transform:scale(1)}
 }

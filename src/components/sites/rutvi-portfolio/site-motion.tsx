@@ -13,7 +13,7 @@ export function SiteMotion() {
     const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
     const targets = Array.from(document.querySelectorAll<HTMLElement>(revealSelector)).filter((target) => {
       const page = target.closest<HTMLElement>("main")?.dataset.page;
-      return page !== "home" && page !== "chopdawg" && !target.hasAttribute("data-kerzner-discovery");
+      return page !== "home" && page !== "chopdawg" && page !== "kerzner" && !target.hasAttribute("data-kerzner-discovery");
     });
     const observer = new IntersectionObserver((entries, activeObserver) => {
       for (const entry of entries) {

@@ -1,0 +1,23 @@
+{
+  "route": "/",
+  "width": 320,
+  "height": 844,
+  "dpr": 2,
+  "reduced": true,
+  "scrollWidth": 320,
+  "h1": {
+    "text": "Making complex systems feel simple, intuitive, and distinctly human",
+    "opacity": "1",
+    "filter": "none",
+    "rect": {
+      "x": 21.59375,
+      "y": 148.796875,
+      "width": 276.8125,
+      "height": 506.875,
+      "top": 148.796875,
+      "right": 298.40625,
+      "bottom": 655.671875,
+      "left": 21.59375
+    }
+  }
+}

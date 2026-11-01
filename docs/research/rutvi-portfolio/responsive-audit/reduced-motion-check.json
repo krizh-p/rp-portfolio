@@ -1,0 +1,714 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 390,
+    "scrollRevealCount": 0,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "Making complex systems feel simple, intuitive, and distinctly human",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "hero.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 0,
+          "bottom": 844
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 0,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 1432,
+    "scrollRevealCount": 0,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "Making complex systems feel simple, intuitive, and distinctly human",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "hero.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 0,
+          "bottom": 825
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 0,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        }
+      ]
+    }
+  },
+  {
+    "route": "/about",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 390,
+    "scrollRevealCount": 6,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "About me",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [],
+    "afterVideoScroll": {
+      "scrollY": 0,
+      "headerHidden": false,
+      "videos": []
+    }
+  },
+  {
+    "route": "/about",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 1432,
+    "scrollRevealCount": 6,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "About me",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [],
+    "afterVideoScroll": {
+      "scrollY": 0,
+      "headerHidden": false,
+      "videos": []
+    }
+  },
+  {
+    "route": "/currentrole-projects-1",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 390,
+    "scrollRevealCount": 16,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "Scaled one enterprise system into two distinct luxury identities.",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "nature-shadow-play.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 3712,
+          "bottom": 4352
+        }
+      },
+      {
+        "src": "underwater-tranquility.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 3814,
+          "bottom": 3888
+        }
+      },
+      {
+        "src": "7639979-hd_1080_1920_30fps.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 4010,
+          "bottom": 4084
+        }
+      },
+      {
+        "src": "7606112-hd_1080_1920_30fps.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 4186,
+          "bottom": 4260
+        }
+      },
+      {
+        "src": "mazagan-tabbed-carousel.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 13488,
+          "bottom": 13679
+        }
+      },
+      {
+        "src": "room-types-tabbed-carousel.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 13807,
+          "bottom": 13998
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 3040,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": false
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": false
+        }
+      ]
+    }
+  },
+  {
+    "route": "/currentrole-projects-1",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 1432,
+    "scrollRevealCount": 16,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "Scaled one enterprise system into two distinct luxury identities.",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "nature-shadow-play.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 4721,
+          "bottom": 5487
+        }
+      },
+      {
+        "src": "underwater-tranquility.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 5031,
+          "bottom": 5149
+        }
+      },
+      {
+        "src": "7639979-hd_1080_1920_30fps.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 5716,
+          "bottom": 5834
+        }
+      },
+      {
+        "src": "7606112-hd_1080_1920_30fps.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 6388,
+          "bottom": 6506
+        }
+      },
+      {
+        "src": "mazagan-tabbed-carousel.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 18490,
+          "bottom": 19151
+        }
+      },
+      {
+        "src": "room-types-tabbed-carousel.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 19283,
+          "bottom": 19944
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 4424,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": false
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": false
+        }
+      ]
+    }
+  },
+  {
+    "route": "/currentrole-projects",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 390,
+    "scrollRevealCount": 0,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "ChopDawg",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "animated-web-screens.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 1567,
+          "bottom": 1767
+        }
+      },
+      {
+        "src": "new-file.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 3576,
+          "bottom": 3776
+        }
+      },
+      {
+        "src": "storyo-overview.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 5101,
+          "bottom": 5301
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 1216,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": false
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": false
+        }
+      ]
+    }
+  },
+  {
+    "route": "/currentrole-projects",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 1432,
+    "scrollRevealCount": 0,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "ChopDawg",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "animated-web-screens.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 1426,
+          "bottom": 1982
+        }
+      },
+      {
+        "src": "new-file.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 2825,
+          "bottom": 3342
+        }
+      },
+      {
+        "src": "storyo-overview.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 4332,
+          "bottom": 4836
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 1106,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": false
+        },
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": false
+        }
+      ]
+    }
+  },
+  {
+    "route": "/edtech-casestudy",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 390,
+    "scrollRevealCount": 12,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "Big Picture Philadelphia",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "prototype.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 1278,
+          "bottom": 1520
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 608,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        }
+      ]
+    }
+  },
+  {
+    "route": "/edtech-casestudy",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 1432,
+    "scrollRevealCount": 12,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "Big Picture Philadelphia",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "prototype.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 1207,
+          "bottom": 1867
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 553,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        }
+      ]
+    }
+  },
+  {
+    "route": "/productstrategy-casestudy",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 390,
+    "scrollRevealCount": 14,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "Empowering parents to travel confidently & efficiently",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "showreel-grid-mobile.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 1583,
+          "bottom": 1781
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 1216,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        }
+      ]
+    }
+  },
+  {
+    "route": "/productstrategy-casestudy",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "reduced": true,
+    "hasScrollMotion": false,
+    "scrollWidth": 1432,
+    "scrollRevealCount": 14,
+    "hiddenRevealCount": 0,
+    "h1": {
+      "text": "Empowering parents to travel confidently & efficiently",
+      "opacity": "1",
+      "filter": "none"
+    },
+    "videos": [
+      {
+        "src": "showreel-grid-mobile.mp4",
+        "paused": true,
+        "time": 0,
+        "autoplay": false,
+        "controls": false,
+        "readyState": 4,
+        "rect": {
+          "top": 1269,
+          "bottom": 1861
+        }
+      }
+    ],
+    "afterVideoScroll": {
+      "scrollY": 553,
+      "headerHidden": false,
+      "videos": [
+        {
+          "paused": true,
+          "time": 0,
+          "autoplay": false,
+          "readyState": 4,
+          "visible": true
+        }
+      ]
+    }
+  }
+]

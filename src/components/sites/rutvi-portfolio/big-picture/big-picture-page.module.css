@@ -11,6 +11,13 @@
   font-size: 20px;
   overflow-wrap: anywhere;
 }
+@media (min-width: 1601px) {
+  .page {
+    max-width: none;
+    padding-inline: calc((100vw - 1600px) / 2 + var(--page-gutter));
+  }
+}
+
 
 .page h1, .page h2, .page h3 {
   color: #123f36;
@@ -73,7 +80,7 @@
  .discovery > .metrics > .figure { margin-top: 2px; }
  .chapter.discovery:not(.finalDesign) > h3:nth-of-type(4) { margin-bottom: 13px; }
  .chapter.discovery:not(.finalDesign) > h3:nth-of-type(3) { margin-bottom: 30px; }
- .discovery > .figure + .columns { grid-template-columns: 315px 315px; column-gap: 81px; margin-top: 21px; margin-bottom: 80px; padding-left: 26px; }
+ .discovery > .figure + .columns { width: min(737px, 100%); grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(20px, 10vw, 81px); margin-top: 21px; margin-bottom: 80px; padding-left: 26px; }
  .discovery > .columns article h3 { margin-bottom: 11px; }
  .discovery > .columns article:last-child h3 { margin-top: 37px; margin-bottom: 12px; }
  .chapter.discovery:not(.finalDesign) > h3:nth-of-type(5) { margin-bottom: 49px; }
@@ -106,7 +113,7 @@
  .goals span { padding: 18px; border-left: 3px solid var(--green); background: #f3f7f4; }
  .chapter.priorities > h3.insightHeading { margin: 84px 0 25px; }
  .chapter.priorities > h3.improvementHeading { margin-top: 169px; margin-bottom: 25px; }
- .priorities > .insightGrid { display: grid; width: 765px; max-width: 100%; grid-template-columns: 335px 335px; column-gap: 95px; row-gap: 47px; margin: 0; }
+ .priorities > .insightGrid { display: grid; width: 765px; max-width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(32px, 10vw, 95px); row-gap: 47px; margin: 0; }
  .insightGrid article { min-width: 0; }
  .insightGrid article > .figure { width: 100%; max-width: 335px; margin: 0; }
  .insightCopy { display: flex; align-items: flex-start; gap: 10px; margin-top: 19px; }
@@ -117,11 +124,11 @@
  .chapter.priorities > h3.contentStrategyHeading { margin-top: 35px; }
  .blueprint > .caption { max-width: 616px; margin: 28px 0 0; }
  .blueprint > .figure + .caption { margin-top: 28px; }
- .decisionGrid { display: grid; max-width: 736px; grid-template-columns: 296px 296px; column-gap: 144px; row-gap: 46px; margin: 0; padding: 0; }
+ .decisionGrid { display: grid; max-width: 736px; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(32px, 10vw, 144px); row-gap: 46px; margin: 0; padding: 0; }
  .decisionGrid article { display: grid; gap: 5px; min-width: 0; }
  .decisionGrid article > span { font-size: 20px; line-height: 48px; }
  .decisionGrid article > p { max-width: none; margin: 0; line-height: 28px; }
- .treeImages { display: grid; max-width: 823px; grid-template-columns: 242px 563px; column-gap: 18px; align-items: start; margin: 0; }
+ .treeImages { display: grid; max-width: 823px; grid-template-columns: minmax(0, 242fr) minmax(0, 563fr); column-gap: 18px; align-items: start; margin: 0; }
  .treeImages > .figure { width: 100%; margin: 0; }
  .treeImages > .figure:first-child { margin-top: 72px; }
  .priorities { padding-bottom: 113px; }
@@ -143,7 +150,7 @@
  .chapter.execution > p + .figure { margin-top: 60px; }
 
  .chapter.finalDesign { padding: 72px 0 233px; }
- .finalDesign > .columns { grid-template-columns: 620px 620px; column-gap: 28px; margin: 0; }
+ .finalDesign > .columns { width: min(1268px, 100%); grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; margin: 0; }
  .finalDesign > .columns article { min-width: 0; }
  .finalDesign > .columns article:first-child,
  .finalDesign > .columns article:last-child { grid-column: auto; grid-row: auto; }
@@ -173,7 +180,7 @@
  .chapter.reflection:not(.finalDesign) > p:first-of-type { margin-top: 6px; }
  .chapter.reflection:not(.finalDesign) > .number { top: -15px; }
  .chapter.reflection:not(.finalDesign) > .eyebrow { top: -1px; }
- .reflectionGrid { display: grid; width: 747px; max-width: 100%; grid-template-columns: 342px 342px; column-gap: 63px; margin-top: 102px; }
+ .reflectionGrid { display: grid; width: 747px; max-width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(32px, 5vw, 63px); margin-top: 102px; }
  .reflectionGrid article { min-width: 0; }
  .reflectionGrid article > span { display: block; margin-bottom: 7px; font: 400 32px/48px var(--font-serif), Georgia, serif; }
  .reflectionGrid article > h3 { margin: 7px 0 9px; font: 700 20px/28px var(--font-sf-pro); }
@@ -233,7 +240,7 @@
   .chapter.discovery:not(.finalDesign) > .figure + h3 { margin-top: 32px; }
   .discovery > p + .figure { margin-top: 24px; }
   .discovery > .metrics, .discovery > .figure + .columns { margin: 32px 0; }
-  .discovery > .figure + .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; padding-left: 0; }
+  .discovery > .figure + .columns { width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; padding-left: 0; }
   .discovery > .columns article h3, .discovery > .columns article:last-child h3 { margin: 0 0 12px; }
   .discovery > .caption, .discovery > .figure + .caption { max-width: none; margin: 0 0 8px; }
   .discovery > .caption + .figure { margin: 24px 0 32px; }

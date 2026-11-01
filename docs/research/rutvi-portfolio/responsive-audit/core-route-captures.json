@@ -1,0 +1,182 @@
+[
+  {
+    "route": "/",
+    "label": "mobile",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/home-390x844-dpr2-top.webp",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "scrollWidth": 390,
+    "scrollHeight": 7831
+  },
+  {
+    "route": "/",
+    "label": "tablet",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/home-820x1180-dpr2-top.webp",
+    "width": 820,
+    "height": 1180,
+    "dpr": 2,
+    "scrollWidth": 820,
+    "scrollHeight": 10233
+  },
+  {
+    "route": "/",
+    "label": "laptop",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/home-1432x768-dpr2-top.webp",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "scrollWidth": 1432,
+    "scrollHeight": 8054
+  },
+  {
+    "route": "/about",
+    "label": "mobile",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/about-390x844-dpr2-top.webp",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "scrollWidth": 390,
+    "scrollHeight": 5492
+  },
+  {
+    "route": "/about",
+    "label": "tablet",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/about-820x1180-dpr2-top.webp",
+    "width": 820,
+    "height": 1180,
+    "dpr": 2,
+    "scrollWidth": 820,
+    "scrollHeight": 8095
+  },
+  {
+    "route": "/about",
+    "label": "laptop",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/about-1432x768-dpr2-top.webp",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "scrollWidth": 1432,
+    "scrollHeight": 6111
+  },
+  {
+    "route": "/currentrole-projects-1",
+    "label": "mobile",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1-390x844-dpr2-top.webp",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "scrollWidth": 390,
+    "scrollHeight": 21254
+  },
+  {
+    "route": "/currentrole-projects-1",
+    "label": "tablet",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1-820x1180-dpr2-top.webp",
+    "width": 820,
+    "height": 1180,
+    "dpr": 2,
+    "scrollWidth": 820,
+    "scrollHeight": 26202
+  },
+  {
+    "route": "/currentrole-projects-1",
+    "label": "laptop",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1-1432x768-dpr2-top.webp",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "scrollWidth": 1432,
+    "scrollHeight": 29492
+  },
+  {
+    "route": "/currentrole-projects",
+    "label": "mobile",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-390x844-dpr2-top.webp",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "scrollWidth": 390,
+    "scrollHeight": 10029
+  },
+  {
+    "route": "/currentrole-projects",
+    "label": "tablet",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-820x1180-dpr2-top.webp",
+    "width": 820,
+    "height": 1180,
+    "dpr": 2,
+    "scrollWidth": 820,
+    "scrollHeight": 5572
+  },
+  {
+    "route": "/currentrole-projects",
+    "label": "laptop",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1432x768-dpr2-top.webp",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "scrollWidth": 1432,
+    "scrollHeight": 7546
+  },
+  {
+    "route": "/edtech-casestudy",
+    "label": "mobile",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/edtech-casestudy-390x844-dpr2-top.webp",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "scrollWidth": 390,
+    "scrollHeight": 22611
+  },
+  {
+    "route": "/edtech-casestudy",
+    "label": "tablet",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/edtech-casestudy-820x1180-dpr2-top.webp",
+    "width": 820,
+    "height": 1180,
+    "dpr": 2,
+    "scrollWidth": 820,
+    "scrollHeight": 21339
+  },
+  {
+    "route": "/edtech-casestudy",
+    "label": "laptop",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/edtech-casestudy-1432x768-dpr2-top.webp",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "scrollWidth": 1432,
+    "scrollHeight": 24898
+  },
+  {
+    "route": "/productstrategy-casestudy",
+    "label": "mobile",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/productstrategy-casestudy-390x844-dpr2-top.webp",
+    "width": 390,
+    "height": 844,
+    "dpr": 2,
+    "scrollWidth": 390,
+    "scrollHeight": 27401
+  },
+  {
+    "route": "/productstrategy-casestudy",
+    "label": "tablet",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/productstrategy-casestudy-820x1180-dpr2-top.webp",
+    "width": 820,
+    "height": 1180,
+    "dpr": 2,
+    "scrollWidth": 820,
+    "scrollHeight": 34098
+  },
+  {
+    "route": "/productstrategy-casestudy",
+    "label": "laptop",
+    "path": "docs/research/rutvi-portfolio/responsive-audit/productstrategy-casestudy-1432x768-dpr2-top.webp",
+    "width": 1432,
+    "height": 768,
+    "dpr": 2,
+    "scrollWidth": 1432,
+    "scrollHeight": 22307
+  }
+]

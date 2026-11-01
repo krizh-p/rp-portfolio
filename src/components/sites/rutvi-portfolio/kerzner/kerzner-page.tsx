@@ -24,6 +24,7 @@ const imageDimensions = [
   [357, 503], [1387, 628], [1296, 1082], [1190, 967], [1059, 661],
   [1059, 661], [1024, 525], [1029, 498], [1129, 1226], [1296, 1599],
 ];
+const scrollZoomImageIndexes = new Set([7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 21, 22, 23, 24]);
 const imageAlts = [
   "Valtech_white_logo.png",
   "Property Selection Hero Banner (1).png",
@@ -82,7 +83,7 @@ function CaseImage({
           decorative={decorative}
         />
       ) : (
-        <Image src={images[index]} alt={imageAlts[index]} width={width} height={height} sizes="(max-width: 760px) 100vw, 80vw" />
+        <Image src={images[index]} alt={imageAlts[index]} width={width} height={height} sizes="(max-width: 760px) 100vw, 80vw" className={scrollZoomImageIndexes.has(index) ? styles.scrollZoom : undefined} />
       )}
       {motif && <Image src={motif} alt="" aria-hidden="true" width={200} height={200} className={styles.motif} />}
     </figure>
@@ -90,7 +91,7 @@ function CaseImage({
 }
 
 export function KerznerPage() {
-  return <main id="main-content" data-page-theme="light" className={styles.page}>
+  return <main id="main-content" data-page="kerzner" data-page-theme="light" className={styles.page}>
     <header className={styles.hero}>
       <CaseImage index={0} />
       <h1>Scaled one enterprise system into two distinct luxury identities.</h1>
@@ -186,11 +187,12 @@ export function KerznerPage() {
       <div className={`${styles.storyPair} ${styles.storyPairWide}`}><CaseImage index={14}/><CaseImage index={15}/></div>
     </section>
     <CaseImage index={16} className={styles.wide} />
-    <section className={styles.decisions}>
+    <div className={styles.decisionChapter}>
       <div className={styles.storyIndex}>
         <span className={styles.number}>02</span>
         <p className={styles.eyebrow}>TRADE OFFS &amp; DECISIONS</p>
       </div>
+    <section className={styles.decisions}>
       <h2>Trade-offs &amp; decisions</h2>
       <p>Discovery told us what guests needed. Turning that into something that could actually ship required real trade-offs between two brands that needed distinct identities - one enterprise design system they both had to live within, and business priorities that had to feel like part of the story, not a sales pitch. Here are the three decisions that shaped the redesign, and what each one cost to get there.</p>
       <aside><strong>CONSTRAINT</strong><p>Bab Al Shams and Mazagan needed unmistakably different digital personalities, yet both had to be built from the same enterprise design system, the same component library, and the same technical foundation used across Kerzner&apos;s broader portfolio. Differentiation couldn&apos;t come from custom components. It had to come from how those components were used.</p></aside>
@@ -258,6 +260,7 @@ export function KerznerPage() {
       <p>Enterprise constraints didn&apos;t limit these decisions - they sharpened them.</p>
       <p>Every choice above had to hold up across Kerzner&apos;s broader portfolio, not just these two resorts: as content teams added new experiences, as other properties adopted the same system, and as the design evolved beyond this project. The result was less about designing two websites, and more about giving two distinct luxury brands a shared language flexible enough to keep telling their own story.</p>
     </section>
+    </div>
     <section className={styles.impact}>
       <div className={styles.storyIndex}>
         <span className={styles.number}>03</span>

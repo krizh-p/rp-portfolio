@@ -1,0 +1,1390 @@
+{
+  "capturedAt": "2026-10-31T17:10:57.447Z",
+  "input": "Puppeteer page.mouse.wheel() with ~0.72 viewport-height increments",
+  "deviceScaleFactor": 2,
+  "records": [
+    {
+      "route": "/",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 2,
+        "scrollWidth": 390,
+        "scrollHeight": 7831
+      },
+      "mid": {
+        "scrollY": 4256,
+        "scrollHeight": 8531,
+        "scrollWidth": 390,
+        "visibleHeadings": [
+          "CHOPDAWG"
+        ],
+        "wheelPositions": [
+          608,
+          1216,
+          1824,
+          2432,
+          3040,
+          4256
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/home-390x844-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 8037,
+        "scrollHeight": 8881,
+        "scrollWidth": 390,
+        "footerTop": 8388.9,
+        "footerHeight": 492,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 6,
+          "loaded": 6,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.07
+          }
+        ],
+        "wheelPositions": [
+          4864,
+          6080,
+          7296,
+          7904,
+          8037
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/home-390x844-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/",
+      "label": "tablet",
+      "viewport": {
+        "width": 820,
+        "height": 1180,
+        "dpr": 2,
+        "scrollWidth": 820,
+        "scrollHeight": 10233
+      },
+      "mid": {
+        "scrollY": 5100,
+        "scrollHeight": 10233,
+        "scrollWidth": 820,
+        "visibleHeadings": [
+          "VALTECH x KERZNER",
+          "CHOPDAWG",
+          "STARLING ASSIST"
+        ],
+        "wheelPositions": [
+          850,
+          1700,
+          2550,
+          3400,
+          4250,
+          5100
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/home-820x1180-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 9053,
+        "scrollHeight": 10233,
+        "scrollWidth": 820,
+        "footerTop": 9786.1,
+        "footerHeight": 446.8,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 6,
+          "loaded": 6,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.1
+          }
+        ],
+        "wheelPositions": [
+          5950,
+          7650,
+          8500,
+          9053
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/home-820x1180-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/",
+      "label": "laptop",
+      "viewport": {
+        "width": 1432,
+        "height": 768,
+        "dpr": 2,
+        "scrollWidth": 1432,
+        "scrollHeight": 8054
+      },
+      "mid": {
+        "scrollY": 3871,
+        "scrollHeight": 8054,
+        "scrollWidth": 1432,
+        "visibleHeadings": [
+          "VALTECH x KERZNER",
+          "CHOPDAWG",
+          "STARLING ASSIST"
+        ],
+        "wheelPositions": [
+          553,
+          1106,
+          1659,
+          2212,
+          2765,
+          3871
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/home-1432x768-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 7286,
+        "scrollHeight": 8054,
+        "scrollWidth": 1432,
+        "footerTop": 7425.4,
+        "footerHeight": 628.9,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 6,
+          "loaded": 6,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.08
+          }
+        ],
+        "wheelPositions": [
+          4424,
+          5530,
+          6083,
+          6636,
+          7189,
+          7286
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/home-1432x768-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/about",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 2,
+        "scrollWidth": 390,
+        "scrollHeight": 5492
+      },
+      "mid": {
+        "scrollY": 2432,
+        "scrollHeight": 5492,
+        "scrollWidth": 390,
+        "visibleHeadings": [
+          "In my spare time,"
+        ],
+        "wheelPositions": [
+          0,
+          1216,
+          1824,
+          2432
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/about-390x844-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 4648,
+        "scrollHeight": 5492,
+        "scrollWidth": 390,
+        "footerTop": 5000.2,
+        "footerHeight": 492,
+        "visibleHeadings": [
+          "UX/UI Designer",
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 16,
+          "loaded": 11,
+          "broken": 0
+        },
+        "videos": [],
+        "wheelPositions": [
+          3040,
+          3648,
+          4256,
+          4648
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/about-390x844-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/about",
+      "label": "tablet",
+      "viewport": {
+        "width": 820,
+        "height": 1180,
+        "dpr": 2,
+        "scrollWidth": 820,
+        "scrollHeight": 8097
+      },
+      "mid": {
+        "scrollY": 4250,
+        "scrollHeight": 8097,
+        "scrollWidth": 820,
+        "visibleHeadings": [
+          "Past Work",
+          "Experience",
+          "UX Designer"
+        ],
+        "wheelPositions": [
+          850,
+          1700,
+          2550,
+          3400,
+          4250
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/about-820x1180-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 6917,
+        "scrollHeight": 8097,
+        "scrollWidth": 820,
+        "footerTop": 7650.5,
+        "footerHeight": 446.8,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 16,
+          "loaded": 13,
+          "broken": 0
+        },
+        "videos": [],
+        "wheelPositions": [
+          5100,
+          5950,
+          6800,
+          6917
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/about-820x1180-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/about",
+      "label": "laptop",
+      "viewport": {
+        "width": 1432,
+        "height": 768,
+        "dpr": 2,
+        "scrollWidth": 1432,
+        "scrollHeight": 6111
+      },
+      "mid": {
+        "scrollY": 2765,
+        "scrollHeight": 6111,
+        "scrollWidth": 1432,
+        "visibleHeadings": [
+          "Vadodara, India",
+          "In my spare time,"
+        ],
+        "wheelPositions": [
+          553,
+          1106,
+          1659,
+          2212,
+          2765
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/about-1432x768-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 5343,
+        "scrollHeight": 6111,
+        "scrollWidth": 1432,
+        "footerTop": 5482,
+        "footerHeight": 628.9,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 16,
+          "loaded": 16,
+          "broken": 0
+        },
+        "videos": [],
+        "wheelPositions": [
+          3318,
+          3871,
+          4424,
+          4977,
+          5343
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/about-1432x768-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/currentrole-projects-1",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 2,
+        "scrollWidth": 390,
+        "scrollHeight": 21254
+      },
+      "mid": {
+        "scrollY": 10336,
+        "scrollHeight": 21254,
+        "scrollWidth": 390,
+        "visibleHeadings": [
+          "Decision 01",
+          "Design the destination before the transaction"
+        ],
+        "wheelPositions": [
+          608,
+          1216,
+          1824,
+          2432,
+          3040,
+          3648,
+          4864,
+          5472,
+          6080,
+          6688,
+          7296,
+          7904,
+          8512,
+          9120,
+          9728,
+          10336
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1-390x844-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 20410,
+        "scrollHeight": 21254,
+        "scrollWidth": 390,
+        "footerTop": 20762.2,
+        "footerHeight": 492,
+        "visibleHeadings": [
+          "Knowing when to lead and when to align.",
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 22,
+          "loaded": 19,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.45
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 1.12
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.02
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.03
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0
+          }
+        ],
+        "wheelPositions": [
+          10944,
+          11552,
+          12160,
+          12768,
+          13376,
+          13984,
+          14592,
+          15200,
+          15808,
+          16416,
+          17024,
+          17632,
+          18240,
+          18848,
+          19456,
+          20064,
+          20410
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1-390x844-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/currentrole-projects-1",
+      "label": "tablet",
+      "viewport": {
+        "width": 820,
+        "height": 1180,
+        "dpr": 2,
+        "scrollWidth": 820,
+        "scrollHeight": 26202
+      },
+      "mid": {
+        "scrollY": 12750,
+        "scrollHeight": 26202,
+        "scrollWidth": 820,
+        "visibleHeadings": [],
+        "wheelPositions": [
+          850,
+          1700,
+          2550,
+          3400,
+          4250,
+          5950,
+          6800,
+          7650,
+          8500,
+          9350,
+          10200,
+          11050,
+          11900,
+          12750
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1-820x1180-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 25022,
+        "scrollHeight": 26202,
+        "scrollWidth": 820,
+        "footerTop": 25755.4,
+        "footerHeight": 446.8,
+        "visibleHeadings": [
+          "Grounding decisions in the business, not just the user.",
+          "Cultural context shapes decisions as much as user data does",
+          "Knowing when to lead and when to align.",
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 22,
+          "loaded": 22,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.43
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 1.08
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 1.02
+          }
+        ],
+        "wheelPositions": [
+          13600,
+          14450,
+          15300,
+          16150,
+          17000,
+          17850,
+          18700,
+          19550,
+          20400,
+          21250,
+          22100,
+          22950,
+          23800,
+          24650,
+          25022
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1-820x1180-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/currentrole-projects-1",
+      "label": "laptop",
+      "viewport": {
+        "width": 1432,
+        "height": 768,
+        "dpr": 2,
+        "scrollWidth": 1432,
+        "scrollHeight": 29492
+      },
+      "mid": {
+        "scrollY": 14378,
+        "scrollHeight": 29492,
+        "scrollWidth": 1432,
+        "visibleHeadings": [
+          "Decision 01",
+          "Design the destination before the transaction"
+        ],
+        "wheelPositions": [
+          553,
+          1106,
+          1659,
+          2212,
+          2765,
+          3318,
+          3871,
+          4424,
+          4977,
+          5530,
+          6083,
+          6636,
+          7189,
+          7742,
+          8295,
+          8848,
+          9401,
+          9954,
+          10507,
+          11060,
+          11613,
+          12166,
+          12719,
+          13272,
+          13825,
+          14378
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1-1432x768-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 28724,
+        "scrollHeight": 29492,
+        "scrollWidth": 1432,
+        "footerTop": 28862.7,
+        "footerHeight": 628.9,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 22,
+          "loaded": 22,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 9.36
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 10.02
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 7.94
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 3.94
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 2.35
+          }
+        ],
+        "wheelPositions": [
+          14931,
+          15484,
+          16037,
+          16590,
+          17143,
+          17696,
+          18249,
+          18802,
+          19355,
+          19908,
+          20461,
+          21014,
+          21567,
+          22120,
+          22673,
+          23226,
+          23779,
+          24332,
+          24885,
+          25438,
+          25991,
+          26544,
+          27097,
+          27650,
+          28203,
+          28724
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1-1432x768-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/currentrole-projects",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 2,
+        "scrollWidth": 390,
+        "scrollHeight": 10029
+      },
+      "mid": {
+        "scrollY": 4864,
+        "scrollHeight": 10029,
+        "scrollWidth": 390,
+        "visibleHeadings": [
+          "MINDFUL DRIVING NAVIGATION APP",
+          "ED-TECH VIRTUAL LEARNING WEB APP",
+          "Reimagining virtual circle-time for kids"
+        ],
+        "wheelPositions": [
+          0,
+          608,
+          1216,
+          1824,
+          2432,
+          3040,
+          3648,
+          4256,
+          4864
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-390x844-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 9185,
+        "scrollHeight": 10029,
+        "scrollWidth": 390,
+        "footerTop": 9537,
+        "footerHeight": 492,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 0,
+          "loaded": 0,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.98
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 4
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 1.5
+          }
+        ],
+        "wheelPositions": [
+          6080,
+          6688,
+          7296,
+          7904,
+          8512,
+          9120,
+          9185
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-390x844-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/currentrole-projects",
+      "label": "tablet",
+      "viewport": {
+        "width": 820,
+        "height": 1180,
+        "dpr": 2,
+        "scrollWidth": 820,
+        "scrollHeight": 5572
+      },
+      "mid": {
+        "scrollY": 2550,
+        "scrollHeight": 5572,
+        "scrollWidth": 820,
+        "visibleHeadings": [
+          "MINDFUL DRIVING NAVIGATION APP",
+          "ED-TECH VIRTUAL LEARNING WEB APP",
+          "Reimagining virtual circle-time for kids"
+        ],
+        "wheelPositions": [
+          0,
+          850,
+          1700,
+          2550
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-820x1180-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 4392,
+        "scrollHeight": 5572,
+        "scrollWidth": 820,
+        "footerTop": 5124.7,
+        "footerHeight": 446.8,
+        "visibleHeadings": [
+          "Anticipating needs & being proactive",
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 0,
+          "loaded": 0,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.99
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 0.7
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 1.51
+          }
+        ],
+        "wheelPositions": [
+          4250,
+          4392
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-820x1180-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/currentrole-projects",
+      "label": "laptop",
+      "viewport": {
+        "width": 1432,
+        "height": 768,
+        "dpr": 2,
+        "scrollWidth": 1432,
+        "scrollHeight": 7546
+      },
+      "mid": {
+        "scrollY": 3871,
+        "scrollHeight": 7546,
+        "scrollWidth": 1432,
+        "visibleHeadings": [
+          "ED-TECH VIRTUAL LEARNING WEB APP"
+        ],
+        "wheelPositions": [
+          0,
+          553,
+          1106,
+          1659,
+          2212,
+          2765,
+          3318,
+          3871
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1432x768-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 6778,
+        "scrollHeight": 7546,
+        "scrollWidth": 1432,
+        "footerTop": 6917.5,
+        "footerHeight": 628.9,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 0,
+          "loaded": 0,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 3.99
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 3.99
+          },
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 1.82
+          }
+        ],
+        "wheelPositions": [
+          4977,
+          5530,
+          6083,
+          6636,
+          6778
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/currentrole-projects-1432x768-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/edtech-casestudy",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 2,
+        "scrollWidth": 390,
+        "scrollHeight": 22611
+      },
+      "mid": {
+        "scrollY": 10944,
+        "scrollHeight": 22611,
+        "scrollWidth": 390,
+        "visibleHeadings": [
+          "AREAS OF IMPROVEMENT"
+        ],
+        "wheelPositions": [
+          0,
+          608,
+          1216,
+          1824,
+          2432,
+          3040,
+          3648,
+          4256,
+          4864,
+          5472,
+          6080,
+          6688,
+          7296,
+          7904,
+          8512,
+          9120,
+          9728,
+          10336,
+          10944
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/edtech-casestudy-390x844-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 21767,
+        "scrollHeight": 22611,
+        "scrollWidth": 390,
+        "footerTop": 22119.2,
+        "footerHeight": 492,
+        "visibleHeadings": [
+          "Efficiency in redesign",
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 25,
+          "loaded": 25,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 1.32
+          }
+        ],
+        "wheelPositions": [
+          12160,
+          12768,
+          13376,
+          13984,
+          14592,
+          15200,
+          15808,
+          16416,
+          17024,
+          17632,
+          18240,
+          18848,
+          19456,
+          20064,
+          20672,
+          21280,
+          21767
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/edtech-casestudy-390x844-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/edtech-casestudy",
+      "label": "tablet",
+      "viewport": {
+        "width": 820,
+        "height": 1180,
+        "dpr": 2,
+        "scrollWidth": 820,
+        "scrollHeight": 21339
+      },
+      "mid": {
+        "scrollY": 10200,
+        "scrollHeight": 21339,
+        "scrollWidth": 820,
+        "visibleHeadings": [
+          "SALVAGING THE WEBSITE - THE GOOD & THE BAD",
+          "THE GOOD",
+          "AREAS OF IMPROVEMENT"
+        ],
+        "wheelPositions": [
+          0,
+          850,
+          1700,
+          2550,
+          3400,
+          4250,
+          5100,
+          5950,
+          6800,
+          7650,
+          8500,
+          9350,
+          10200
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/edtech-casestudy-820x1180-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 20159,
+        "scrollHeight": 21339,
+        "scrollWidth": 820,
+        "footerTop": 20892.1,
+        "footerHeight": 446.8,
+        "visibleHeadings": [
+          "Leading with empathy and adaptability",
+          "Efficiency in redesign",
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 25,
+          "loaded": 25,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 4.33
+          }
+        ],
+        "wheelPositions": [
+          11900,
+          12750,
+          13600,
+          14450,
+          15300,
+          16150,
+          17000,
+          17850,
+          18700,
+          19550,
+          20159
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/edtech-casestudy-820x1180-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/edtech-casestudy",
+      "label": "laptop",
+      "viewport": {
+        "width": 1432,
+        "height": 768,
+        "dpr": 2,
+        "scrollWidth": 1432,
+        "scrollHeight": 24898
+      },
+      "mid": {
+        "scrollY": 12166,
+        "scrollHeight": 24898,
+        "scrollWidth": 1432,
+        "visibleHeadings": [
+          "DESIGN GOALS"
+        ],
+        "wheelPositions": [
+          0,
+          553,
+          1106,
+          1659,
+          2212,
+          2765,
+          3318,
+          3871,
+          4424,
+          4977,
+          5530,
+          6083,
+          6636,
+          7189,
+          7742,
+          8295,
+          8848,
+          9401,
+          9954,
+          10507,
+          11060,
+          11613,
+          12166
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/edtech-casestudy-1432x768-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 24130,
+        "scrollHeight": 24898,
+        "scrollWidth": 1432,
+        "footerTop": 24269.4,
+        "footerHeight": 628.9,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 25,
+          "loaded": 25,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 2.33
+          }
+        ],
+        "wheelPositions": [
+          13272,
+          13825,
+          14378,
+          14931,
+          15484,
+          16037,
+          16590,
+          17143,
+          17696,
+          18249,
+          18802,
+          19355,
+          19908,
+          20461,
+          21014,
+          21567,
+          22120,
+          22673,
+          23226,
+          23779,
+          24130
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/edtech-casestudy-1432x768-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/productstrategy-casestudy",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 2,
+        "scrollWidth": 390,
+        "scrollHeight": 27401
+      },
+      "mid": {
+        "scrollY": 13376,
+        "scrollHeight": 27399,
+        "scrollWidth": 390,
+        "visibleHeadings": [],
+        "wheelPositions": [
+          0,
+          608,
+          1216,
+          1824,
+          2432,
+          3040,
+          3648,
+          4256,
+          4864,
+          5472,
+          6080,
+          6688,
+          7296,
+          7904,
+          8512,
+          9120,
+          9728,
+          10336,
+          10944,
+          11552,
+          12160,
+          12768,
+          13376
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/productstrategy-casestudy-390x844-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 26555,
+        "scrollHeight": 27399,
+        "scrollWidth": 390,
+        "footerTop": 26907.4,
+        "footerHeight": 492,
+        "visibleHeadings": [
+          "Designing beyond screens",
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 24,
+          "loaded": 24,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 1.98
+          }
+        ],
+        "wheelPositions": [
+          13984,
+          14592,
+          15200,
+          15808,
+          16416,
+          17024,
+          17632,
+          18240,
+          18848,
+          19456,
+          20064,
+          20672,
+          21280,
+          21888,
+          22496,
+          23104,
+          23712,
+          24320,
+          24928,
+          25536,
+          26144,
+          26555
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/productstrategy-casestudy-390x844-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/productstrategy-casestudy",
+      "label": "tablet",
+      "viewport": {
+        "width": 820,
+        "height": 1180,
+        "dpr": 2,
+        "scrollWidth": 820,
+        "scrollHeight": 34098
+      },
+      "mid": {
+        "scrollY": 17000,
+        "scrollHeight": 34098,
+        "scrollWidth": 820,
+        "visibleHeadings": [
+          "RESULTS",
+          "TAKEAWAYS",
+          "Allows parents greater flexibility",
+          "Parent Notes"
+        ],
+        "wheelPositions": [
+          0,
+          850,
+          1700,
+          2550,
+          3400,
+          4250,
+          5100,
+          5950,
+          6800,
+          7650,
+          8500,
+          9350,
+          10200,
+          11050,
+          11900,
+          12750,
+          13600,
+          14450,
+          15300,
+          16150,
+          17000
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/productstrategy-casestudy-820x1180-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 32918,
+        "scrollHeight": 34098,
+        "scrollWidth": 820,
+        "footerTop": 33651.5,
+        "footerHeight": 446.8,
+        "visibleHeadings": [
+          "Learning backend & dev planning",
+          "Navigating ambiguity",
+          "Designing beyond screens",
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 24,
+          "loaded": 24,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 1.99
+          }
+        ],
+        "wheelPositions": [
+          18700,
+          19550,
+          20400,
+          21250,
+          22100,
+          22950,
+          23800,
+          24650,
+          25500,
+          26350,
+          27200,
+          28050,
+          28900,
+          29750,
+          30600,
+          31450,
+          32300,
+          32918
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/productstrategy-casestudy-820x1180-dpr2-bottom.webp"
+      }
+    },
+    {
+      "route": "/productstrategy-casestudy",
+      "label": "laptop",
+      "viewport": {
+        "width": 1432,
+        "height": 768,
+        "dpr": 2,
+        "scrollWidth": 1432,
+        "scrollHeight": 22307
+      },
+      "mid": {
+        "scrollY": 11060,
+        "scrollHeight": 22307,
+        "scrollWidth": 1432,
+        "visibleHeadings": [
+          "Scoping & Strategizing",
+          "Designing for trust was the biggest challenge"
+        ],
+        "wheelPositions": [
+          0,
+          553,
+          1106,
+          1659,
+          2212,
+          2765,
+          3318,
+          3871,
+          4424,
+          4977,
+          5530,
+          6083,
+          6636,
+          7189,
+          7742,
+          8295,
+          8848,
+          9401,
+          9954,
+          10507,
+          11060
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/productstrategy-casestudy-1432x768-dpr2-mid.webp"
+      },
+      "bottom": {
+        "scrollY": 21539,
+        "scrollHeight": 22307,
+        "scrollWidth": 1432,
+        "footerTop": 21678.4,
+        "footerHeight": 628.9,
+        "visibleHeadings": [
+          "Let's build something\nhuman"
+        ],
+        "imageCounts": {
+          "total": 24,
+          "loaded": 24,
+          "broken": 0
+        },
+        "videos": [
+          {
+            "paused": true,
+            "readyState": 4,
+            "currentTime": 2.99
+          }
+        ],
+        "wheelPositions": [
+          11613,
+          12166,
+          12719,
+          13272,
+          13825,
+          14378,
+          14931,
+          15484,
+          16037,
+          16590,
+          17143,
+          17696,
+          18249,
+          18802,
+          19355,
+          19908,
+          20461,
+          21014,
+          21539
+        ],
+        "screenshot": "docs/research/rutvi-portfolio/responsive-audit/productstrategy-casestudy-1432x768-dpr2-bottom.webp"
+      }
+    }
+  ]
+}

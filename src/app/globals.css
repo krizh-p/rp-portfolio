@@ -545,6 +545,10 @@ html.has-scroll-motion [data-scroll-reveal].is-visible {
   transform: scaleX(1.32);
 }
 
+.home-page {
+  overflow-x: clip;
+}
+
 .intro-section {
   position: relative;
   isolation: isolate;
