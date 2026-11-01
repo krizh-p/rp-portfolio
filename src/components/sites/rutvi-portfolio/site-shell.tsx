@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { portfolioMedia } from "@/components/sites/rutvi-portfolio/media";
+import { portfolioMedia, publicAsset } from "@/components/sites/rutvi-portfolio/media";
 import { MobileNavigation } from "./mobile-navigation";
 
 const linkedIn = "https://www.linkedin.com/in/rutvi-purohit121/";
@@ -14,9 +14,9 @@ export function SiteHeader() {
         <Link href="/about">About</Link>
         <a href={email}>Contact</a>
         <Link href="/" className="brand-link" aria-label="Rutvi Purohit home">
-          <Image src={portfolioMedia.logo} alt="Rutvi Purohit portfolio logo" width={42} height={42} priority />
+          <Image src={publicAsset(portfolioMedia.logo)} alt="Rutvi Purohit portfolio logo" width={42} height={42} priority />
         </Link>
-        <a href={portfolioMedia.resumes.header} target="_blank" rel="noreferrer">Resume<span className="nav-arrow" aria-hidden="true">→</span></a>
+        <a href={publicAsset(portfolioMedia.resumes.header)} target="_blank" rel="noreferrer">Resume<span className="nav-arrow" aria-hidden="true">→</span></a>
         <a href={linkedIn} target="_blank" rel="noreferrer">LinkedIn<span className="nav-arrow" aria-hidden="true">→</span></a>
         <MobileNavigation />
       </nav>
@@ -43,7 +43,7 @@ export function SiteFooter() {
         </nav>
         <div className="footer-brand">
           <Link href="/" className="footer-logo" aria-label="Rutvi Purohit home">
-            <Image src={portfolioMedia.logo} alt="" width={55} height={55} />
+            <Image src={publicAsset(portfolioMedia.logo)} alt="" width={55} height={55} />
           </Link>
           <Link href="/" className="footer-name">RUTVI PUROHIT</Link>
           <p className="copyright">© 2026 Rutvi Purohit.</p>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { portfolioMedia } from "@/components/sites/rutvi-portfolio/media";
+import { portfolioMedia, publicAsset } from "@/components/sites/rutvi-portfolio/media";
 import styles from "./about-page.module.css";
 
 const facts = [
@@ -65,7 +65,7 @@ export function AboutPage() {
         <div className={styles.introCopy}><h1 id="about-title">About me</h1><p className={styles.name}>I&apos;m Rutvi!</p><p className={styles.pronunciation}>/roo • T • wee</p><p className={styles.role}>UX Designer. Currently @ Valtech</p><Link href="/" className={styles.workLink}>See my work <span aria-hidden="true">→</span></Link></div>
         <div className={styles.portraitTrack}>
           <div className={styles.portraitSticky}>
-            <Image className={styles.portrait} src={portfolioMedia.about.portrait} alt="" width={680} height={906} priority />
+            <Image className={styles.portrait} src={publicAsset(portfolioMedia.about.portrait)} alt="" width={680} height={906} priority />
           </div>
         </div>
       </section>
@@ -74,7 +74,7 @@ export function AboutPage() {
           <p>As a UX Designer my passion for UX stems from my love for behavioral psychology and delighting people through intentional designs. I take pride in harmonizing business goals and user needs through a strategic design approach that is rooted in research and powered by empathy.</p>
           <p>I am currently shaping digital experiences and driving UX strategy for ultra-luxury brands at Valtech.</p>
           <h2>Fun facts about me</h2>
-          <ul>{facts.map(({ icon, text }) => <li key={text}><Image src={icon} alt="" aria-hidden="true" width={36} height={36} />{text}</li>)}</ul>
+          <ul>{facts.map(({ icon, text }) => <li key={text}><Image src={publicAsset(icon)} alt="" aria-hidden="true" width={36} height={36} />{text}</li>)}</ul>
         </div>
       </section>
       <section className={styles.strengths}>
@@ -97,21 +97,21 @@ export function AboutPage() {
         <h2 className={styles.location}>Vadodara, India</h2>
         <div className={styles.leisureCopy}>
           <h2 id="spare-time">In my spare time,</h2>
-          <Image className={styles.leisureIcon} src="/sites/rutvi-portfolio/about/leisure-icon-plant.svg" alt="" aria-hidden="true" width={57} height={57} />
+          <Image className={styles.leisureIcon} src={publicAsset("/sites/rutvi-portfolio/about/leisure-icon-plant.svg")} alt="" aria-hidden="true" width={57} height={57} />
           <p>I&apos;m mostly doing something peaceful to recharge myself and keep my creative sharps. Being a tactile, hands-on person, I immerse myself in activities like cooking, DIYs, painting or tending to my plant babies.</p>
-          <Image className={styles.leisureIcon} src="/sites/rutvi-portfolio/about/leisure-icon-mountain.svg" alt="" aria-hidden="true" width={40} height={40} />
+          <Image className={styles.leisureIcon} src={publicAsset("/sites/rutvi-portfolio/about/leisure-icon-mountain.svg")} alt="" aria-hidden="true" width={40} height={40} />
           <p>Outside of home, I love hiking, kayaking or just strolling through history or art museums.</p>
-          <Image className={styles.leisureIcon} src="/sites/rutvi-portfolio/about/leisure-icon-camera.svg" alt="" aria-hidden="true" width={33} height={33} />
+          <Image className={styles.leisureIcon} src={publicAsset("/sites/rutvi-portfolio/about/leisure-icon-camera.svg")} alt="" aria-hidden="true" width={33} height={33} />
           <p>Photography and capturing moments during my travels has also become my favorite and a source of inspiration for me.</p>
         </div>
-        <div className={styles.gallery}>{lifestylePhotos.map(({ src, width, height }) => <Image key={src} src={src} alt="" width={width} height={height} />)}</div>
+        <div className={styles.gallery}>{lifestylePhotos.map(({ src, width, height }) => <Image key={src} src={publicAsset(src)} alt="" width={width} height={height} />)}</div>
       </section>
-      <section className={styles.photoGallery} aria-hidden="true">{travelPhotos.map(({ src, width, height }) => <Image key={src} src={src} alt="" width={width} height={height} />)}</section>
+      <section className={styles.photoGallery} aria-hidden="true">{travelPhotos.map(({ src, width, height }) => <Image key={src} src={publicAsset(src)} alt="" width={width} height={height} />)}</section>
       <section className={styles.work}>
         <div className={styles.workHeading}>
           <h2>Past Work</h2>
           <h2 className={styles.experienceTitle}>Experience</h2>
-          <a href={portfolioMedia.resumes.about} target="_blank" rel="noreferrer">Download My Resume <svg viewBox="0 0 200 200" aria-hidden="true"><path fill="currentColor" d="M104.133 18.918l-9.431 8.947 61.913 65.269-137.498.938.089 13 138.096-.942-61.338 66.11 9.529 8.842 75.39-81.254-76.75-80.91z" /></svg></a>
+          <a href={publicAsset(portfolioMedia.resumes.about)} target="_blank" rel="noreferrer">Download My Resume <svg viewBox="0 0 200 200" aria-hidden="true"><path fill="currentColor" d="M104.133 18.918l-9.431 8.947 61.913 65.269-137.498.938.089 13 138.096-.942-61.338 66.11 9.529 8.842 75.39-81.254-76.75-80.91z" /></svg></a>
         </div>
         <div className={`${styles.timeline} ${styles.desktopTimeline}`}>
           {jobs.map(([title, company, description, date]) => (
